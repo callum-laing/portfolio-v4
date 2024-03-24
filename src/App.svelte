@@ -5,6 +5,7 @@
 import Background from './components/Background.svelte';
 import Navbar from './components/Navbar.svelte';
 import Hero from './components/Hero.svelte';
+
 </script>
 
 <main>
