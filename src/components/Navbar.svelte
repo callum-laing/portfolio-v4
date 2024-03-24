@@ -1,8 +1,9 @@
+
 <main>
-    <!-- <div><h1>Callum Laing</h1></div> -->
     <div class="links"><a href="#">About</a>
     <a href="#">Projects</a>
     <a href="#">Contact</a></div>
+
 </main>
 
 <style>

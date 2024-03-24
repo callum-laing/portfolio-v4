@@ -2,7 +2,7 @@
     import cal from '../assets/cal.jpg';
     import callum from '../assets/callum.jpg';
     import calFootball from '../assets/calFootball.jpg';
-    import { fly } from 'svelte/transition';
+    import { fly, fade } from 'svelte/transition';
 
   let isVisible = false;
 
@@ -17,12 +17,12 @@
     <div class="intro">
         <h1 transition:fly="{{ x: 0, y: 100, duration: 500, delay: 500}}">Hey, I'm Callum.</h1>
         <h2 transition:fly="{{ x: 0, y: 100, duration: 750, delay: 1500}}">I'm a front-end developer based in Cambridge, UK.</h2>
-        <p transition:fly="{{ x: 0, y: 100, duration: 1000, delay: 2500}}">I've combined my love for sports with a passion for web development, embarking on a journey of creating responsive, dynamic and intuitive online experiences—one pixel at a time.</p>
+        <p transition:fade="{{duration: 2000, delay: 2500}}">I've combined my love for sports with a passion for web development, embarking on a journey of creating responsive, dynamic and intuitive online experiences—one pixel at a time.</p>
     </div>
     <div class="gallery">
-        <img transition:fly="{{ x: 0, y: 100, duration: 1000, delay: 2500}}" src={cal} alt="">
-        <img transition:fly="{{ x: 0, y: 100, duration: 1000, delay: 2500}}" src={calFootball} alt="">
-        <img transition:fly="{{ x: 0, y: 100, duration: 1000, delay: 2500}}" src={callum} alt="">
+        <img transition:fade="{{duration: 2000, delay: 2500}}" src={cal} alt="">
+        <img transition:fade="{{duration: 2000, delay: 2500}}" src={calFootball} alt="">
+        <img transition:fade="{{duration: 2000, delay: 2500}}" src={callum} alt="">
     </div>
     {/if}
 </main>
