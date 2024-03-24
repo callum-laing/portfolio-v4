@@ -6,10 +6,9 @@
 
   let isVisible = false;
 
-  // Set isVisible to true after a delay to trigger the transition
   setTimeout(() => {
     isVisible = true;
-  }, 1000); // Adjust the delay as needed
+  }, 1000); 
 </script>
 
 <main>
