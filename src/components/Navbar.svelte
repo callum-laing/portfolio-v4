@@ -3,8 +3,9 @@
 </script>
 
 <main>
-    <div class="links"><a href="#">About</a>
-    <a href="#">Projects</a>
+    <div class="links">
+        <a href="#">Projects</a>
+        <a href="#">About</a>
     <a href="#">Contact</a></div>
 
 </main>

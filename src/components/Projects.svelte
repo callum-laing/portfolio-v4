@@ -15,8 +15,8 @@
             <img src={memoryCard} alt="">
             <p>Created a memory card game to test memory skills and provide enjoyable entertainment.</p>
             <span>
-                <a href="">Live Demo</a>
-                <a href="">Github Repo</a>
+                <a href="https://sv-memory-card.pages.dev/">Live Demo</a>
+                <a href="https://github.com/callum-laing/sv-memory-card">Github Repo</a>
             </span>
         </div>
         <div class="projTWo projCard">
@@ -24,8 +24,8 @@
             <img src={todoList} alt="">
             <p>Designed a straightforward to-do list app for organizing tasks and boosting productivity.</p>
             <span>
-                <a href="">Live Demo</a>
-                <a href="">Github Repo</a>
+                <a href="https://svelte-todo-app-73m.pages.dev/">Live Demo</a>
+                <a href="https://github.com/callum-laing/svelte-todo-app">Github Repo</a>
             </span>
         </div>
         <div class="projThree projCard">
@@ -33,8 +33,8 @@
             <img src={ticTacToe} alt="">
             <p>Developed a classic Tic-Tac-Toe game for nostalgic fun and strategic challenges.</p>
             <span>
-                <a href="">Live Demo</a>
-                <a href="">Github Repo</a>
+                <a href="https://callum-laing.github.io/tic-tac-toe/">Live Demo</a>
+                <a href="https://github.com/callum-laing/tic-tac-toe">Github Repo</a>
             </span>
         </div>
         <div class="projFour projCard">
@@ -42,8 +42,8 @@
             <img src={rps} alt="">
             <p>Engineered a playful Rock, Paper, Scissors game for casual gaming sessions.</p>
             <span>
-                <a href="">Live Demo</a>
-                <a href="">Github Repo</a>
+                <a href="https://callum-laing.github.io/rock-paper-scissors/">Live Demo</a>
+                <a href="https://github.com/callum-laing/rock-paper-scissors">Github Repo</a>
             </span>
         </div>
         <div class="projFive projCard">
@@ -51,8 +51,8 @@
             <img src={etchASketch} alt="">
             <p>Crafted an interactive Etch-a-Sketch platform for doodling and creativity.</p>
             <span>
-                <a href="">Live Demo</a>
-                <a href="">Github Repo</a>
+                <a href="https://callum-laing.github.io/etch-a-sketch/">Live Demo</a>
+                <a href="https://github.com/callum-laing/etch-a-sketch">Github Repo</a>
             </span>
         </div>
         <div class="projSix projCard">
@@ -60,8 +60,8 @@
             <img src={calculator} alt="">
             <p>Built a simple yet efficient calculator application to handle everyday arithmetic tasks with ease.</p>
             <span>
-                <a href="">Live Demo</a>
-                <a href="">Github Repo</a>
+                <a href="https://callum-laing.github.io/calculator/">Live Demo</a>
+                <a href="https://github.com/callum-laing/calculator">Github Repo</a>
             </span>
         </div>
 
