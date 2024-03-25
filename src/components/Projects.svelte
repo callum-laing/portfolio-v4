@@ -114,4 +114,13 @@
     border-bottom: 2px solid yellow;
     color: rgba(200, 200, 200);
  }
+
+ @media (max-width: 769px) {
+    .projectWrapper {
+        grid-template-columns: 1fr;
+    }
+    img {
+        width: 100%;
+    }
+ }
 </style>

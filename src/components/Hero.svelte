@@ -33,6 +33,9 @@
 
 
     @media (max-width: 769px) {
+        h1 {
+            font-size: 2.9rem;
+        }
         .intro {
             font-size: 1rem;
             width: 100%; }  
