@@ -6,6 +6,7 @@ import Background from './components/Background.svelte';
 import Navbar from './components/Navbar.svelte';
 import Hero from './components/Hero.svelte';
 import Projects from './components/Projects.svelte';
+import Skills from './components/Skills.svelte';
 
 </script>
 
@@ -14,6 +15,7 @@ import Projects from './components/Projects.svelte';
 <Navbar />
 <Hero />
 <Projects />
+<Skills />
 
 </main>
 
