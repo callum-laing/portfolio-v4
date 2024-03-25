@@ -41,6 +41,10 @@
         <img src={nextjs} alt="nextjs icon">
         <i>Next</i>
 	</div>
+    <div class="vite skillIcons">
+        <img src={vite} alt="vite icon">
+        <i>Vite</i>
+	</div>
     <div class="git skillIcons">
         <img src={git} alt="git icon">
         <i>Git</i>
@@ -49,10 +53,7 @@
         <img src={github} alt="github icon">
         <i>Github</i>
 	</div>
-    <div class="vite skillIcons">
-        <img src={vite} alt="vite icon">
-        <i>Vite</i>
-	</div>
+
     <div class="cloudflare skillIcons">
         <img src={cloudflare} alt="cloudflare icon">
         <i>Cloudflare</i>
