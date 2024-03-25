@@ -1,3 +1,6 @@
+<script>
+    import Projects from './Projects.svelte';
+</script>
 
 <main>
     <div class="links"><a href="#">About</a>
