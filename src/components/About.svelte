@@ -28,6 +28,10 @@
 </main>
 
 <style>
+main {
+    margin-top: 150px;
+}
+
 .aboutWrapper {
         display: flex;
         flex-wrap: wrap;

@@ -18,53 +18,53 @@
 <p>Below are the skills and tools I use to bring projects to life:</p>
 <div class="skillsContainer">
     <div class="skillIcons">
-        <img src={html} alt="html icon">
-		<i>HTML5</i>
+        <img src={html} alt="html icon" width="50" height="auto" loading="lazy">
+		<span>HTML5</span>
 	</div>
 	<div class="skillIcons">
-        <img src={css} alt="css icon">
-		<i>CSS3</i>
+        <img src={css} alt="css icon" width="50" height="auto" loading="lazy">
+		<span>CSS3</span>
 	</div>
 	<div class="skillIcons">
-        <img src={javascript} alt="javascript icon">
-		<i>JavaScript</i>
+        <img src={javascript} alt="javascript icon" width="50" height="auto" loading="lazy">
+        <span>JavaScript</span>
 	</div>
 	<div class="skillIcons">
-        <img src={svelte} alt="svelte icon">
-		<i>Svelte</i>
+        <img src={svelte} alt="svelte icon" width="50" height="auto" loading="lazy">
+        <span>Svelte</span>
 	</div>
 	<div class="skillIcons">
-        <img src={react} alt="react icon">
-        <i>React</i>
+        <img src={react} alt="react icon" width="50" height="auto" loading="lazy">
+        <span>React</span>
 	</div>
     <div class="skillIcons">
-        <img src={nextjs} alt="nextjs icon">
-        <i>Next</i>
+        <img src={nextjs} alt="nextjs icon" width="50" height="auto" loading="lazy">
+        <span>Next</span>
 	</div>
     <div class="skillIcons">
-        <img src={vite} alt="vite icon">
-        <i>Vite</i>
+        <img src={vite} alt="vite icon" width="50" height="auto" loading="lazy">
+        <span>Vite</span>
 	</div>
     <div class="skillIcons">
-        <img src={git} alt="git icon">
-        <i>Git</i>
+        <img src={git} alt="git icon" width="50" height="auto" loading="lazy">
+        <span>Git</span>
 	</div>
     <div class="skillIcons">
-        <img src={github} alt="github icon">
-        <i>Github</i>
+        <img src={github} alt="github icon" width="50" height="auto" loading="lazy">
+        <span>Github</span>
 	</div>
 
     <div class="skillIcons">
-        <img src={cloudflare} alt="cloudflare icon">
-        <i>Cloudflare</i>
+        <img src={cloudflare} alt="cloudflare icon" width="50">
+        <span>Cloudflare</span>
 	</div>
     <div class="skillIcons">
-        <img src={vscode} alt="vscode icon">
-        <i>VS Code</i>
+        <img src={vscode} alt="vscode icon" width="50">
+        <span>VS Code</span>
 	</div>
     <div class="skillIcons">
-        <img src={responsive} alt="responsive icon">
-        <i>Responsive Design</i>
+        <img src={responsive} alt="responsive icon" width="50">
+        <span>Responsive Design</span>
 	</div>
 
 
@@ -72,10 +72,10 @@
 
 <style>
 
-    .skillsTitle {
-        margin-top: 100px;
+.skillsTitle {
+        margin-top: 150px;
 
-    }
+}
 
 .skillsContainer {
         display: flex;
@@ -83,7 +83,7 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 100px;
-    }
+}
 
 
 .skillIcons {
@@ -96,17 +96,13 @@
         width: calc(100% / 10);
         margin-left: 50px;
         margin-right: 50px;
-    }
-
-
-img {
-    width: 50px;
 }
+
 p {
     font-style: italic;
 }
 
-i {
+span {
     color: white;
     font-style: normal;
 }

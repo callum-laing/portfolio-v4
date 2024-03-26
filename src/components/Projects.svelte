@@ -71,7 +71,7 @@
 <style>
 
     .projectSection {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .projectWrapper {
