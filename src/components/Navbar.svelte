@@ -1,13 +1,23 @@
 <script>
-
+    function scrollToElement(event) {
+        event.preventDefault();
+        const targetId = event.target.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    }
 </script>
 
 <main>
     <div class="links">
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a></div>
-
+        <a href="#projects" on:click={scrollToElement}>Projects</a>
+        <a href="#about" on:click={scrollToElement}>About</a>
+        <a href="#contact" on:click={scrollToElement}>Contact</a>
+    </div>
 </main>
 
 <style>
