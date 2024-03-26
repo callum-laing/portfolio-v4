@@ -122,6 +122,7 @@
     }
     img {
         width: 100%;
+        height: auto;
     } a {
         margin: 5px;
     }

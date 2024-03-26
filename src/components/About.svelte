@@ -59,4 +59,32 @@ img {
         height: 250px;
         border-radius: 10px;
 }
+
+@media (max-width: 769px) {
+    .aboutMe {
+        width: 100%;
+        font-size: 0.9em;
+        margin-right: 0;
+    }
+    img {
+        width: 150px;
+        height: auto;
+    }
+    .aboutImages {
+        width: 100%;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+    .aboutMe {
+        width: 100%;
+    }
+    img {
+        width: 200px;
+        height: auto;
+    }
+    .aboutImages {
+        width: 100%;
+    }
+}
 </style>
