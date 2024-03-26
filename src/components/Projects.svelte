@@ -7,7 +7,7 @@
     import calculator from '../assets/calculator.jpg';
 </script>
 
-<div class="projectSection">
+<div id="projects" class="projectSection">
     <!-- <h1>Projects</h1> -->
     <div class="projectWrapper">
         <div class="projOne projCard">

@@ -1,12 +1,12 @@
 <script>
-    import Projects from './Projects.svelte';
+
 </script>
 
 <main>
     <div class="links">
-        <a href="#">Projects</a>
-        <a href="#">About</a>
-    <a href="#">Contact</a></div>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a></div>
 
 </main>
 
