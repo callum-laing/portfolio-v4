@@ -122,6 +122,16 @@
     }
     img {
         width: 100%;
+    } a {
+        margin: 5px;
+    }
+ }
+
+ @media (min-width: 770px) and (max-width: 1024px) {
+    .projectWrapper {
+        grid-template-columns: 1fr 1fr;
+    } a {
+        margin: 20px;
     }
  }
 </style>

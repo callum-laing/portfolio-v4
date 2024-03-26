@@ -34,16 +34,23 @@
 
     @media (max-width: 769px) {
         h1 {
-            font-size: 2.9rem;
+            font-size: 2rem;
         }
         .intro {
-            font-size: 1rem;
+            font-size: 0.7rem;
             width: 100%; }  
         h2 {
             font-size: 0.9em;
         }
         p {
             font-size: 1em;
+        }
+    }
+
+    @media (min-width: 770px)and (max-width: 1024px) {
+        .intro {
+            width: 100%;
+            font-size: 1.5em;
         }
     }
 </style>

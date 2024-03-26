@@ -111,4 +111,15 @@ i {
     font-style: normal;
 }
 
+@media (max-width: 769px) {
+    .skillIcons {
+        width: calc(100% / 12);
+        margin-left: 30px;
+        margin-right: 30px;
+    } img {
+        width: 20px;
+    } i {
+        font-size: 0.8em;
+    }
+}
 </style>

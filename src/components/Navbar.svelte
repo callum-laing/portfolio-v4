@@ -43,7 +43,7 @@
     } h1 {
         display: none;
     } a {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 }
 </style>
