@@ -87,18 +87,19 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;   
+        align-items: center;
         padding: 20px; 
         border-bottom: 1px solid yellow;
     }
 
     .projCard > p {
-        max-width: 80%;
         word-wrap: break-word;
+        text-align: center;
+        font-style:italic;
     }
 
     img {
-        width: 90%;
+        width: 100%;
         height: 300px;
         filter: brightness(0.8);
         box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
@@ -106,8 +107,8 @@
     }
 
  a {
+    margin: 40px;
     text-decoration: none;
-    margin-right: 40px;
  }
 
  a:hover {
