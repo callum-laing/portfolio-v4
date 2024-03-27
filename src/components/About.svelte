@@ -7,10 +7,10 @@
     import fleurWater from '../assets/contactImages/fleurWater.jpg';
 </script>
 
-<main> 
+<main id="about"> 
     <div class="aboutWrapper">
         <div class="aboutMe">
-            <h1 id="about">Who Am I?</h1>
+            <h1>Who Am I?</h1>
             <p>I'm a Front-End Developer with a background in sales administration and a passion for coding. By day, I'm immersed in the world of sales operations, where I thrive on ensuring seamless processes and supporting the sales team.</p>
             <p>Outside of work, I'm a sports enthusiast and enjoy playing American football at the highest level in the UK. Hiking with my partner and our dog, typically in the Scottish Highlands, is another favourite hobby of mine, allowing me to unwind and take in the breath-taking scenery.</p>
             <p>When I'm not trying to sack the Quarterback in American Football, or carrying the dog up a mile high mountain in Scotland, you'll find me at the computer, expanding my skills in web development. Whether it's learning new technologies or refining my coding techniques, I'm always eager to grow and improve.</p>

@@ -1,4 +1,4 @@
-<h1>Get in touch</h1>
+<h1 id="contact">Get in touch</h1>
 <div class="grid-wrap">
     <p class="txt">Feel free to leave me a message; I try to reply to everyone when I'm able to. Please don't spam.</p>
 	<form action="https://formspree.io/f/xknykdjb" method="POST">
