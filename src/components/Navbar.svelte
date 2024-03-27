@@ -39,6 +39,7 @@
 
     a:hover {
         border-bottom: 2px solid yellow;
+        color: rgba(200, 200, 200);
     }
 
 

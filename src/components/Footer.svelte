@@ -35,9 +35,10 @@ a {
     padding: 10px;
 }
 
-a:hover  {
-    color: yellow;
-}
+   a:hover {
+        border-bottom: 2px solid yellow;
+        color: rgba(200, 200, 200);
+    }
 
 @media (max-width: 769px) {
     h2 {
