@@ -114,8 +114,12 @@ span {
         margin-right: 30px;
     } img {
         width: 20px;
-    } i {
+    } span {
         font-size: 0.8em;
+    } h1 {
+        text-align: center;
+    } p {
+        text-align: center;
     }
 }
 </style>

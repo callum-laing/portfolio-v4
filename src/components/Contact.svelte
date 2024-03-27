@@ -1,6 +1,6 @@
 <h1>Get in touch</h1>
 <div class="grid-wrap">
-    <p>Feel free to leave me a message; I try to reply to everyone when I'm able to. Please don't spam.</p>
+    <p class="txt">Feel free to leave me a message; I try to reply to everyone when I'm able to. Please don't spam.</p>
 	<form action="https://formspree.io/f/xknykdjb" method="POST">
 		<label for="subject">
 			<p>Your name:</p>
@@ -82,7 +82,6 @@
 
 	p {
 		color: white;
-		font-family: 'Fjalla One', sans-serif;
 		font-size: 1.1em;
 	}
 
@@ -106,5 +105,15 @@
             padding: 0;
             margin: 0;
         }
+        h1, .txt {
+            text-align: center;
+        }
 	}
+
+    @media (min-width: 770px) and (max-width: 1024px) {
+        .txt {
+            width: 50%;
+            text-align: center;
+        }
+    }
 </style>

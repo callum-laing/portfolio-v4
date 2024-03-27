@@ -18,11 +18,11 @@
         </div>
         <div class="aboutImages">
             <img src={calFootball} alt="">
-            <img src={fleurWater} alt="">
-            <img src={fleurHike} alt="">
+            <!-- <img src={fleurWater} alt=""> -->
+            <!-- <img src={fleurHike} alt=""> -->
             <img src={fleurRock} alt="">
             <img src={calRock} alt="">
-            <img src={calWater} alt="">
+            <!-- <img src={calWater} alt=""> -->
         </div>
     </div>
 </main>
@@ -72,6 +72,9 @@ img {
     }
     .aboutImages {
         width: 100%;
+    }
+    h1, p {
+        text-align: center;
     }
 }
 
