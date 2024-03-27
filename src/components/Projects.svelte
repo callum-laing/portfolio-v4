@@ -126,6 +126,9 @@
     } a {
         margin: 5px;
     }
+    .projectSection {
+        margin-top: 50px;
+    }
  }
 
  @media (min-width: 770px) and (max-width: 1024px) {

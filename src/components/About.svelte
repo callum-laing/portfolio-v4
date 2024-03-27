@@ -56,7 +56,7 @@ h1 {
 
 img {
         width: 250px;
-        height: 250px;
+        height: auto;
         border-radius: 10px;
 }
 
@@ -67,7 +67,7 @@ img {
         margin-right: 0;
     }
     img {
-        width: 150px;
+        width: 100px;
         height: auto;
     }
     .aboutImages {
