@@ -1,7 +1,7 @@
 <script>
     import todoList from '../assets/todoList.jpg';
     import ticTacToe from '../assets/ticTacToe.jpg';
-    import rps from '../assets/rps.jpg';
+    import shop from '../assets/shop.jpg';
     import memoryCard from '../assets/memoryCard.jpg';
     import etchASketch from '../assets/etchASketch.jpg';
     import calculator from '../assets/calculator.jpg';
@@ -11,6 +11,15 @@
     <!-- <h1>Projects</h1> -->
     <div class="projectWrapper">
         <div class="projOne projCard">
+            <h2>Shopping Cart</h2>
+            <img src={shop} alt="">
+            <p>Crafted an intuitive shopping cart platform for seamless online shopping experiences.</p>
+            <span>
+                <a href="https://shopping-site.pages.dev/">Live Demo</a>
+                <a href="https://github.com/callum-laing/shopping-site">Github Repo</a>
+            </span>
+        </div>
+        <div class="projTwo projCard">
             <h2>Memory Card</h2>
             <img src={memoryCard} alt="">
             <p>Created a memory card game to test memory skills and provide enjoyable entertainment.</p>
@@ -19,7 +28,7 @@
                 <a href="https://github.com/callum-laing/sv-memory-card">Github Repo</a>
             </span>
         </div>
-        <div class="projTWo projCard">
+        <div class="projThree projCard">
             <h2>Todo List</h2>
             <img src={todoList} alt="">
             <p>Designed a straightforward to-do list app for organizing tasks and boosting productivity.</p>
@@ -28,7 +37,7 @@
                 <a href="https://github.com/callum-laing/svelte-todo-app">Github Repo</a>
             </span>
         </div>
-        <div class="projThree projCard">
+        <div class="projFour projCard">
             <h2>Tic Tac Toe</h2>
             <img src={ticTacToe} alt="">
             <p>Developed a classic Tic-Tac-Toe game for nostalgic fun and strategic challenges.</p>
@@ -37,15 +46,7 @@
                 <a href="https://github.com/callum-laing/tic-tac-toe">Github Repo</a>
             </span>
         </div>
-        <div class="projFour projCard">
-            <h2>Rock, Paper, Scissors</h2>
-            <img src={rps} alt="">
-            <p>Engineered a playful Rock, Paper, Scissors game for casual gaming sessions.</p>
-            <span>
-                <a href="https://callum-laing.github.io/rock-paper-scissors/">Live Demo</a>
-                <a href="https://github.com/callum-laing/rock-paper-scissors">Github Repo</a>
-            </span>
-        </div>
+
         <div class="projFive projCard">
             <h2>Etch-A-Sketch</h2>
             <img src={etchASketch} alt="">
