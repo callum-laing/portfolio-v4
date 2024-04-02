@@ -6,9 +6,9 @@
 <main>
     <div class="footer">
         <div class="links">
-            <span class="linkIcon"><a href="https://github.com/callum-laing">Github</a></span>
-            <span class="linkIcon"><a href="https://www.linkedin.com/in/callumlaing91/">Linkedin</a></span>
-            <span class="linkIcon"><a href="https://callum-laing.github.io/resume/">Resume</a></span>
+            <span class="linkIcon"><a href="https://github.com/callum-laing" target="_blank">Github</a></span>
+            <span class="linkIcon"><a href="https://www.linkedin.com/in/callumlaing91/" target="_blank">Linkedin</a></span>
+            <span class="linkIcon"><a href="https://callum-laing.github.io/resume/" target="_blank">Resume</a></span>
         </div>
         <h2>©2024 Callum Laing</h2>
     </div>
