@@ -12,16 +12,16 @@
     }
 </script>
 
-<main>
+<nav>
     <div class="links">
         <a href="#projects" on:click={scrollToElement}>Projects</a>
         <a href="#about" on:click={scrollToElement}>About</a>
         <a href="#contact" on:click={scrollToElement}>Contact</a>
     </div>
-</main>
+</nav>
 
 <style>
-    main {
+    nav {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -48,7 +48,7 @@
 	}
 
 @media (max-width: 769px) {
-    main {
+    nav {
         display: flex;
         justify-content: space-around;
     } h1 {

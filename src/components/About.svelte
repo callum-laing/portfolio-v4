@@ -32,6 +32,7 @@ main {
 .aboutWrapper {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
 }
 
 .aboutMe {
@@ -56,7 +57,7 @@ h1 {
 
 img {
         width: auto;
-        height: 250px;
+        height: 200px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 

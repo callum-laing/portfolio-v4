@@ -107,7 +107,7 @@
     }
 
  a {
-    margin: 40px;
+    margin: 20px;
     text-decoration: none;
  }
 
@@ -135,7 +135,7 @@
     .projectWrapper {
         grid-template-columns: 1fr 1fr;
     } a {
-        margin: 20px;
+        margin: 10px;
     }
  }
 </style>
