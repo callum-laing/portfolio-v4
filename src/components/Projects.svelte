@@ -91,6 +91,10 @@
         align-items: center;
         padding: 20px; 
         border-bottom: 1px solid yellow;
+        backdrop-filter: blur(20px);
+        background: rgba(255,255,255,0.07);
+        border-radius: 8px;
+        border: 1px solid rgba(255,255,255,0.3);
     }
 
     .projCard > p {

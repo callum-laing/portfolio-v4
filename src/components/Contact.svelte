@@ -38,11 +38,15 @@
     	background-repeat: no-repeat;
 		font-size: 3rem;
         margin-top: 150px;
-        text-align: center;
 	}
 
+	::placeholder {
+		color: yellow;
+	}
     p {
         width: 30%;
+		color: white;
+		font-size: 1.1em;
     }
 	form {
 		display: flex;
@@ -85,20 +89,16 @@
 		resize: none;
 	}
 
-	p {
-		color: white;
-		font-size: 1.1em;
-	}
 
 	@media (max-width: 769px) {
 		.grid-wrap {
 			display: flex;
 			flex-direction: column;
 			margin-bottom: 50px;
-			gap: 20px;
+			gap: 10px;
 		}
         input, textarea, .body {
-            width: 100%;
+            width: 275px;
             height: auto;
             margin: 0 auto;
         }
@@ -107,18 +107,18 @@
         }
         p {
             width: 100%;
-            padding: 0;
             margin: 0;
-        }
-        h1, .txt {
-            text-align: center;
-        }
+ 		} .txt {
+			padding-bottom: 10px;
+			font-size: 1em;
+		}
 	}
 
     @media (min-width: 770px) and (max-width: 1024px) {
-        .txt {
-            width: 50%;
-            text-align: center;
-        }
+		 input, textarea {
+			width: 600px;
+		} p {
+			width: 100%;
+		}
     }
 </style>

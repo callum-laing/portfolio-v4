@@ -42,15 +42,15 @@ a {
 
 @media (max-width: 769px) {
     h2 {
-        font-size: 0.5em;
+        font-size: 1em;
         margin-left: none;
     }
     .linkIcon {
-        font-size: 0.5em;
+        font-size: 1em;
         width: 100%;
     }
     a {
-        padding: 0;
+        padding: 5px;
     }
 }
 </style>

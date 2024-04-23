@@ -79,7 +79,6 @@
     	background-size: 100% 2px;
     	background-position: bottom;
     	background-repeat: no-repeat;
-
 }
 
 .skillsContainer {
@@ -88,6 +87,9 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 100px;
+        backdrop-filter: blur(10px);
+        background: rgba(0,0,0,0);
+        padding-block: 50px;
 }
 
 
@@ -105,6 +107,7 @@
 
 p {
     font-style: italic;
+    margin-bottom: 100px;
 }
 
 span {
@@ -122,9 +125,7 @@ span {
     } span {
         font-size: 0.8em;
     } h1 {
-        text-align: center;
-    } p {
-        text-align: center;
+        font-size: 2rem;
     }
 }
 </style>
