@@ -1,10 +1,7 @@
 <script>
     import calFootball from '../assets/contactImages/calFootball.jpg';
     import calRock from '../assets/contactImages/calRock.jpg';
-    import calWater from '../assets/contactImages/calWater.jpg';
-    import fleurHike from '../assets/contactImages/fleurHike.jpg';
     import fleurRock from '../assets/contactImages/fleurRock.jpg';
-    import fleurWater from '../assets/contactImages/fleurWater.jpg';
 </script>
 
 <main id="about"> 
@@ -44,20 +41,23 @@ main {
 .aboutImages {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         gap: 10px;
-        width: calc(100% / 2);
 }
 
 h1 {
     font-size: 3em;
     margin: 0;
+		display: inline-block;
+		background-image: linear-gradient(to right, yellow, yellow);
+    	background-size: 100% 2px;
+    	background-position: bottom;
+    	background-repeat: no-repeat;
 }
 
 img {
-        width: 250px;
-        height: auto;
-        border-radius: 10px;
+        width: auto;
+        height: 250px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media (max-width: 769px) {
@@ -67,14 +67,14 @@ img {
         margin-right: 0;
     }
     img {
-        width: 100px;
-        height: auto;
-    }
-    .aboutImages {
-        width: 100%;
+        width: auto;
+        height: 150px;
     }
     h1, p {
         text-align: center;
+    }
+    .aboutImages {
+        justify-content: center;
     }
 }
 

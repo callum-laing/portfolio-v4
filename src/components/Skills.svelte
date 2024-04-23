@@ -74,6 +74,11 @@
 
 .skillsTitle {
         margin-top: 150px;
+        display: inline-block;
+		background-image: linear-gradient(to right, yellow, yellow);
+    	background-size: 100% 2px;
+    	background-position: bottom;
+    	background-repeat: no-repeat;
 
 }
 

@@ -103,8 +103,7 @@
         width: 100%;
         height: 300px;
         filter: brightness(0.8);
-        box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
  a {
