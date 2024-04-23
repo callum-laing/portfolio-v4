@@ -56,7 +56,7 @@
                 <a href="https://github.com/callum-laing/etch-a-sketch" target="_blank">Github Repo</a>
             </span>
         </div>
-        <div class="projSix projCard">
+        <!-- <div class="projSix projCard">
             <h2>Calculator</h2>
             <img src={calculator} alt="">
             <p>Built a simple yet efficient calculator application to handle everyday arithmetic tasks with ease.</p>
@@ -64,7 +64,7 @@
                 <a href="https://callum-laing.github.io/calculator/" target="_blank">Live Demo</a>
                 <a href="https://github.com/callum-laing/calculator" target="_blank">Github Repo</a>
             </span>
-        </div>
+        </div> -->
 
     </div>
 </div>
@@ -101,7 +101,7 @@
 
     img {
         width: 100%;
-        height: 300px;
+        height: auto;;
         filter: brightness(0.8);
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
