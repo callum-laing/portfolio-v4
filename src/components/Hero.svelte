@@ -2,8 +2,8 @@
 <main>
     <div class="intro">
         <h1>Hey, I'm Callum.</h1>
-        <h2>I'm a front-end developer based in Cambridge, UK.</h2>
-        <p>I've combined my love for sports with a passion for web development, embarking on a journey of creating responsive, dynamic and intuitive online experiences—one pixel at a time.</p>
+        <p class="subtitle">I'm a front-end developer based in Cambridge, UK.</p>
+        <p class="heroTxt">I've combined my love for sports with a passion for web development, embarking on a journey of creating responsive, dynamic and intuitive online experiences—one pixel at a time.</p>
     </div>
 </main>
 
@@ -20,13 +20,13 @@
         margin: 0;
     }
     
-    h2 {
+    .subtitle {
         font-size: 0.5em;
         font-weight: 400;
         color: yellow;
         margin: 0;
     }
-    p {
+    .heroTxt {
         font-size: 0.8em;
     }
 

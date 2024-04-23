@@ -79,6 +79,7 @@
     	background-size: 100% 2px;
     	background-position: bottom;
     	background-repeat: no-repeat;
+        margin-bottom: 0;
 }
 
 .skillsContainer {

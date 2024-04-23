@@ -1,6 +1,6 @@
 <h1 id="contact">Get in touch</h1>
+<p class="txt">Feel free to leave me a message; I try to reply to everyone when I'm able to. Please don't spam.</p>
 <div class="grid-wrap">
-    <p class="txt">Feel free to leave me a message; I try to reply to everyone when I'm able to. Please don't spam.</p>
 	<form action="https://formspree.io/f/xknykdjb" method="POST">
 		<label for="subject">
 			<p>Your name:</p>
@@ -43,8 +43,11 @@
 	::placeholder {
 		color: yellow;
 	}
+	h1 {
+		margin-bottom: 0;
+	}
+
     p {
-        width: 30%;
 		color: white;
 		font-size: 1.1em;
     }
