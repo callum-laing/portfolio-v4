@@ -18,7 +18,7 @@ import Footer from './components/Footer.svelte';
 <Navbar />
 <Hero />
 <Projects />
-<Skills />
+<!-- <Skills /> -->
 <About />
 <Contact />
 <Footer />
@@ -27,7 +27,7 @@ import Footer from './components/Footer.svelte';
 
 <style>
 main {
-  margin-left: 75px;
-  margin-right: 75px;
+  margin: auto;
+  width: 100%;
 }
 </style>

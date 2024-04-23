@@ -16,7 +16,7 @@
     <div class="links">
         <a href="#projects" on:click={scrollToElement}>Projects</a>
         <a href="#about" on:click={scrollToElement}>About</a>
-        <a href="#contact" on:click={scrollToElement}>Contact</a>
+        <a href="#contactContainer" on:click={scrollToElement}>Contact</a>
     </div>
 </nav>
 

@@ -1,24 +1,32 @@
-<h1 id="contact">Get in touch</h1>
-<p class="txt">Feel free to leave me a message; I try to reply to everyone when I'm able to. Please don't spam.</p>
-<div class="grid-wrap">
-	<form action="https://formspree.io/f/xknykdjb" method="POST">
-		<label for="subject">
-			<p>Your name:</p>
-			<input type="text" name="subject" placeholder="What should I call you?"/>
-		</label>
-        <label for="email">
-			<p>Your email:</p>
-			<input type="email" name="subject" placeholder="What is your email?"/>
-		</label>
-		<label for="body">
-			<p>Message:</p>
-			<textarea rows="5" name="body" class="body" placeholder="Please leave your message here..."/>
-		</label>
-		<button type="submit">Send</button>
-	</form>
+<div id="contactContainer">
+	<h1 class="contact">Get in touch</h1>
+	<p class="txt">Feel free to leave me a message; I try to reply to everyone when I'm able to. Please don't spam.</p>
+	<div class="grid-wrap">
+		<form action="https://formspree.io/f/xknykdjb" method="POST">
+			<label for="subject">
+				<p>Your name:</p>
+				<input type="text" name="subject" placeholder="What should I call you?"/>
+			</label>
+			<label for="email">
+				<p>Your email:</p>
+				<input type="email" name="subject" placeholder="What is your email?"/>
+			</label>
+			<label for="body">
+				<p>Message:</p>
+				<textarea rows="5" name="body" class="body" placeholder="Please leave your message here..."/>
+			</label>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+
 </div>
 
 <style>
+	#contactContainer {
+	padding-left: 50px;
+    padding-right: 50px;
+	}
+
 	.grid-wrap {
 		display: flex;
 		justify-content: center;

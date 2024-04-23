@@ -1,22 +1,34 @@
+<script>
+    import cal from '../assets/contactImages/cal.jpg';
+</script>
+
 
 <main>
     <div class="intro">
         <h1>Hey, I'm Callum.</h1>
-        <p class="subtitle">I'm a front-end developer based in Cambridge, UK.</p>
-        <p class="heroTxt">I've combined my love for sports with a passion for web development, embarking on a journey of creating responsive, dynamic and intuitive online experiences—one pixel at a time.</p>
+        <p class="subtitle">Front-End Developer in Cambridge, UK.</p>
+        <p class="heroTxt">I'm on a journey of creating responsive, dynamic and intuitive online experiences—one pixel at a time.</p>
+    </div>
+    <div>
+        <img src={cal} alt="">
     </div>
 </main>
 
 <style>
-
+ main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+ }
     
     .intro {
-        font-size: 2rem;
-        width: 75%;
+        font-size: 3rem;
+        width: 50%;
     }
     
     h1 {
-        font-size: 3rem;
+        font-size: 6rem;
         margin: 0;
     }
     
@@ -29,28 +41,23 @@
     .heroTxt {
         font-size: 0.8em;
     }
-
+ img {
+    width: auto;
+    height: 400px;
+ }
 
 
     @media (max-width: 769px) {
-        h1 {
-            font-size: 2rem;
-        }
         .intro {
-            font-size: 0.7rem;
-            width: 100%; }  
-        h2 {
-            font-size: 0.9em;
+            height: 100%;
         }
-        p {
-            font-size: 1em;
+        h1 {
+            font-size: 5rem;
+        } img {
+            display: none;
         }
     }
 
     @media (min-width: 770px)and (max-width: 1024px) {
-        .intro {
-            width: 100%;
-            font-size: 1.5em;
-        }
     }
 </style>

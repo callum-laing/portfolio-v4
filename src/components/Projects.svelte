@@ -8,7 +8,7 @@
 </script>
 
 <div id="projects" class="projectSection">
-    <!-- <h1>Projects</h1> -->
+    <h1>Projects</h1>
     <div class="projectWrapper">
         <div class="projOne projCard">
             <h2>Shopping Cart</h2>
@@ -70,18 +70,29 @@
 </div>
 
 <style>
+h1 {
+    font-size: 3em;
+    margin: 0;
+		display: inline-block;
+		background-image: linear-gradient(to right, yellow, yellow);
+    	background-size: 100% 2px;
+    	background-position: bottom;
+    	background-repeat: no-repeat;
+        margin-bottom: 25px;
+}
 
-    .projectSection {
-        margin-top: 150px;
-    }
+#projects {
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
-    .projectWrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: center;
-        gap: 100px;
-        width: 100%;
-        flex-wrap: wrap;
+.projectWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    flex-wrap: wrap;
     }
 
     .projCard {
