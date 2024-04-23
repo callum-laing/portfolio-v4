@@ -25,6 +25,7 @@
 	#contactContainer {
 	padding-left: 50px;
     padding-right: 50px;
+	padding-top: 150px;
 	}
 
 	.grid-wrap {
@@ -49,7 +50,7 @@
 	}
 
 	::placeholder {
-		color: yellow;
+		color: rgba(209, 203, 119, 0.8);
 	}
 	h1 {
 		margin-bottom: 0;
@@ -86,12 +87,13 @@
 	textarea {
 		width: 600px;
         height: 30px;
-		border: 2px solid white;
-        padding: 2px;
+		border: 2px solid rgba(255,255,255,0.5);
+        padding: 5px;
 		background-color: #1d2242;
 		color: #ccd0e8;
 		font-family: verdana;
 		font-size: 0.9em;
+		border-radius: 10px;
 	}
 
 	.body {

@@ -4,7 +4,7 @@
     import fleurRock from '../assets/contactImages/fleurRock.jpg';
 </script>
 
-<main id="about"> 
+<div id="about"> 
     <div class="aboutWrapper">
         <div class="aboutMe">
             <h1>Who Am I?</h1>
@@ -16,19 +16,19 @@
             <img src={fleurRock} alt="">
         </div>
     </div>
-</main>
+</div>
 
 <style>
-main {
-    margin-top: 150px;
+#about {
+    padding-top: 300px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .aboutWrapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .aboutMe {
@@ -37,8 +37,8 @@ main {
 
 .aboutImages {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
+    align-items: center;
 }
 
 h1 {
@@ -57,7 +57,7 @@ p {
 }
 img {
     width: auto;
-    height: 250px;
+    height: 300px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
 }
