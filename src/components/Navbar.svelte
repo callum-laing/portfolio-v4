@@ -36,10 +36,11 @@
         text-decoration: none;
         margin-left: 20px;
         font-size: 1.2em;
+          color: rgba(200, 255, 200);
     }
 
     a:hover {
-        border-bottom: 2px solid yellow;
+        border-bottom: 2px solid rgba(237, 232, 187);
         color: rgba(200, 200, 200);
     }
 

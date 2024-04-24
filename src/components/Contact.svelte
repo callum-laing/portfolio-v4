@@ -1,6 +1,6 @@
 <div id="contactContainer">
 	<h1 class="contact">Get in touch</h1>
-	<p class="txt">Feel free to leave me a message; I try to reply to everyone when I'm able to. Please don't spam.</p>
+	<!-- <p class="txt">Feel free to leave me a message; I try to reply to everyone when I'm able to. Please don't spam.</p> -->
 	<div class="grid-wrap">
 		<form action="https://formspree.io/f/xknykdjb" method="POST">
 			<label for="subject">
@@ -42,7 +42,7 @@
 
 	h1 {
 		display: inline-block;
-		background-image: linear-gradient(to right, yellow, yellow);
+		background-image: linear-gradient(to right, rgba(237, 232, 187), rgba(237, 232, 187));
     	background-size: 100% 2px;
     	background-position: bottom;
     	background-repeat: no-repeat;
@@ -51,7 +51,7 @@
 	}
 
 	::placeholder {
-		color: rgba(209, 203, 119, 0.8);
+		color: rgba(237, 232, 187);;
 	}
 	h1 {
 		margin-bottom: 0;

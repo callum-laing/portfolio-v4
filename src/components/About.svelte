@@ -1,6 +1,7 @@
 <script>
     import calFootball from '../assets/contactImages/calFootball.jpg';
     import fleurRock from '../assets/contactImages/fleurRock.jpg';
+    import calfootie from '../assets/contactImages/cal-footie.jpg';
 </script>
 
 <div id="about"> 
@@ -11,7 +12,7 @@
             <p>Outside of work, I'm a sports enthusiast and enjoy playing American football at the highest level in the UK. Hiking with my partner and our dog, typically in the Scottish Highlands, is another favourite hobby of mine, allowing me to unwind and take in the breath-taking scenery.</p>
         </div>
         <div class="aboutImages">
-            <img src={calFootball} alt="">
+            <img src={calfootie} alt="">
             <img src={fleurRock} alt="">
         </div>
     </div>
@@ -19,7 +20,7 @@
 
 <style>
 #about {
-    padding-top: 300px;
+    padding-top: 150px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -44,7 +45,7 @@ h1 {
     font-size: 3em;
     margin: 0;
 	display: inline-block;
-	background-image: linear-gradient(to right, yellow, yellow);
+	background-image: linear-gradient(to right, rgba(237, 232, 187), rgba(237, 232, 187));
     background-size: 100% 2px;
     background-position: bottom;
     background-repeat: no-repeat;

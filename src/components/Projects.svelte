@@ -74,7 +74,7 @@ h1 {
     font-size: 3em;
     margin: 0;
 		display: inline-block;
-		background-image: linear-gradient(to right, yellow, yellow);
+		background-image: linear-gradient(to right, rgba(237, 232, 187), rgba(237, 232, 187));
     	background-size: 100% 2px;
     	background-position: bottom;
     	background-repeat: no-repeat;
@@ -84,6 +84,8 @@ h1 {
 #projects {
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .projectWrapper {
@@ -101,11 +103,11 @@ h1 {
         justify-content: space-between;
         align-items: center;
         padding: 20px; 
-        border-bottom: 1px solid yellow;
+        border-bottom: 1px solid rgba(237, 232, 187);
         backdrop-filter: blur(20px);
         background: rgba(255,255,255,0.07);
         border-radius: 8px;
-        border: 1px solid rgba(255,255,255,0.3);
+        border: 2px solid rgba(255,255,255,0.3);
     }
 
     .projCard > p {
@@ -128,9 +130,10 @@ h1 {
  }
 
  a:hover {
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid rgba(237, 232, 187);
     color: rgba(200, 200, 200);
  }
+
 
  @media (max-width: 769px) {
     .projectWrapper {
