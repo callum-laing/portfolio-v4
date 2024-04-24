@@ -51,7 +51,7 @@
     letter-spacing: 2px;
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 768px) {
     nav {
       display: flex;
       justify-content: space-around;

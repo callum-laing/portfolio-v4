@@ -108,7 +108,7 @@
     }
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 768px) {
     #heroWrapper {
       padding-top: 100px;
       padding-bottom: 200px;
@@ -134,6 +134,6 @@
     }
   }
 
-  @media (min-width: 770px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
   }
 </style>

@@ -175,6 +175,7 @@
     font-size: 1.1em;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
+    max-width: 80ch;
   }
 
   h1 {
@@ -265,7 +266,7 @@
     resize: none;
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 768px) {
     #contactContainer {
       align-items: center;
       flex-direction: column;
@@ -294,16 +295,27 @@
     }
   }
 
-  @media (min-width: 770px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
+    #contactContainer {
+      flex-wrap: wrap;
+      padding-right: 0;
+    }
+    .aboutContainer {
+      width: 100%;
+      padding-bottom: 25px;
+    }
     input,
     textarea {
       width: 600px;
     }
     p {
-      width: 100%;
+      max-width: 70ch;
     }
     .skillsContainer {
       display: none;
+    }
+    .formHeader {
+      padding-top: 20px;
     }
   }
 </style>

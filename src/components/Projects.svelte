@@ -189,7 +189,7 @@
     font-style: normal;
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 768px) {
     .projectWrapper {
       grid-template-columns: 1fr;
     }
@@ -205,7 +205,7 @@
     }
   }
 
-  @media (min-width: 770px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
     .projectWrapper {
       grid-template-columns: 1fr 1fr;
     }

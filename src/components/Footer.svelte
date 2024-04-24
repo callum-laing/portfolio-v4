@@ -59,7 +59,7 @@
     color: rgba(237, 232, 187);
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 768px) {
     h2 {
       font-size: 0.8rem;
       margin-left: none;
