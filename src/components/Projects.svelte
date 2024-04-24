@@ -71,14 +71,14 @@
 
 <style>
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     margin: 0;
-		display: inline-block;
-		background-image: linear-gradient(to right, rgba(237, 232, 187), rgba(237, 232, 187));
-    	background-size: 100% 2px;
-    	background-position: bottom;
-    	background-repeat: no-repeat;
-        margin-bottom: 25px;
+	display: inline-block;
+	background-image: linear-gradient(to right, rgba(237, 232, 187), rgba(237, 232, 187));
+    background-size: 100% 2px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
 }
 
 #projects {

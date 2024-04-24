@@ -40,15 +40,16 @@
 		color: white;
 	}
 
-	h1 {
-		display: inline-block;
-		background-image: linear-gradient(to right, rgba(237, 232, 187), rgba(237, 232, 187));
-    	background-size: 100% 2px;
-    	background-position: bottom;
-    	background-repeat: no-repeat;
-		font-size: 3rem;
-        margin-top: 150px;
-	}
+h1 {
+    font-size: 4em;
+    margin: 0;
+	display: inline-block;
+	background-image: linear-gradient(to right, rgba(237, 232, 187), rgba(237, 232, 187));
+    background-size: 100% 2px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
 
 	::placeholder {
 		color: rgba(237, 232, 187);;

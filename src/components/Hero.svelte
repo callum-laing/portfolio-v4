@@ -21,7 +21,7 @@
     <div class="intro">
         <h1>CALLUM LAING</h1>
         <p class="subtitle">Front-End Developer in Cambridge, UK.</p>
-        <button class="button-74" on:click={scrollToElement}><a href="#about"></a>About Me!</button>
+        <a href="#about" on:click={scrollToElement}><button class="button-74">About me...</button></a>
     </div>
         <img class="calImg" src={calfootie} alt="">
 </div>
@@ -65,13 +65,16 @@ h1 {
     color: black;
  }
 
+ a:hover {
+    color: white;
+ }
  p {
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
  }
 .button-74 {
-  background-color: white;
+  background-color: rgba(214, 144, 24);
   border: 2px solid #422800;
   border-radius: 10px;
   color: black;
@@ -89,10 +92,8 @@ h1 {
 }
 
 .button-74:hover {
-  background-color: black;
-  border: none;
+  background-color: white;
   box-shadow: none;
-  color: white;
 }
 
 .button-74:active {
