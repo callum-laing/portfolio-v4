@@ -9,6 +9,7 @@
   import About from "./components/About.svelte";
   import Contact from "./components/Contact.svelte";
   import Footer from "./components/Footer.svelte";
+  import Hire from "./components/Hire.svelte";
 </script>
 
 <main>
@@ -16,8 +17,9 @@
   <Navbar />
   <Hero />
   <Projects />
+  <!-- <Hire /> -->
   <!-- <Skills /> -->
-  <About />
+  <!-- <About /> -->
   <Contact />
   <Footer />
 </main>

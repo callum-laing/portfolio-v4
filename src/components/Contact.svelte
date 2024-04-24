@@ -1,10 +1,89 @@
+<script>
+  import html from "../assets/svg/html.svg";
+  import css from "../assets/svg/css.svg";
+  import javascript from "../assets/svg/javascript.svg";
+  import react from "../assets/svg/react.svg";
+  import svelte from "../assets/svg/svelte.svg";
+</script>
+
 <div id="contactContainer">
-  <h1 class="contact">Get in touch</h1>
-  <!-- <p class="txt">Feel free to leave me a message; I try to reply to everyone when I'm able to. Please don't spam.</p> -->
+  <div class="aboutContainer">
+    <div class="aboutMe">
+      <h1 class="contact">Who am I?</h1>
+      <p>
+        I'm a <span class="highlight">Front-End Developer</span> with a background
+        in sales administration and a passion for coding. By day, I'm immersed in
+        the world of sales operations, where I thrive on ensuring seamless processes
+        and supporting the sales team.
+      </p>
+      <p>
+        Outside of work, I'm a sports enthusiast and enjoy playing American
+        football at the highest level in the UK. Hiking with my partner and our
+        dog, typically in the Scottish Highlands, is another favourite hobby of
+        mine, allowing me to unwind and take in the breath-taking scenery. <span
+          ><a href="https://callum-laing.github.io/resume/" target="_blank"
+            >Hire me!</a
+          ></span
+        >
+      </p>
+      <div class="skillsContainer">
+        <div class="skillIcons">
+          <img
+            src={html}
+            alt="html icon"
+            width="50"
+            height="auto"
+            loading="lazy"
+          />
+          <span>HTML5</span>
+        </div>
+        <div class="skillIcons">
+          <img
+            src={css}
+            alt="css icon"
+            width="50"
+            height="auto"
+            loading="lazy"
+          />
+          <span>CSS3</span>
+        </div>
+        <div class="skillIcons">
+          <img
+            src={javascript}
+            alt="javascript icon"
+            width="50"
+            height="auto"
+            loading="lazy"
+          />
+          <span>JavaScript</span>
+        </div>
+        <div class="skillIcons">
+          <img
+            src={svelte}
+            alt="svelte icon"
+            width="50"
+            height="auto"
+            loading="lazy"
+          />
+          <span>Svelte</span>
+        </div>
+        <div class="skillIcons">
+          <img
+            src={react}
+            alt="react icon"
+            width="50"
+            height="auto"
+            loading="lazy"
+          />
+          <span>React</span>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="grid-wrap">
     <form action="https://formspree.io/f/xknykdjb" method="POST">
       <label for="subject">
-        <p>Your name:</p>
+        <p class="formHeader">Your name:</p>
         <input
           type="text"
           name="subject"
@@ -12,11 +91,11 @@
         />
       </label>
       <label for="email">
-        <p>Your email:</p>
+        <p class="formHeader">Your email:</p>
         <input type="email" name="subject" placeholder="What is your email?" />
       </label>
       <label for="body">
-        <p>Message:</p>
+        <p class="formHeader">Message:</p>
         <textarea
           rows="5"
           name="body"
@@ -31,10 +110,56 @@
 
 <style>
   #contactContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 150px;
     padding-bottom: 100px;
+  }
+
+  .aboutContainer {
+    width: 50%;
+    margin-right: 50px;
+  }
+
+  .skillIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-block: 50px;
+    gap: 20px;
+  }
+
+  span {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  .highlight {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(237, 232, 187);
+    font-style: normal;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+  }
+  a {
+    text-decoration: none;
+    color: rgba(237, 232, 187);
   }
 
   .grid-wrap {
@@ -45,6 +170,9 @@
   }
   p {
     color: white;
+    font-size: 1.1em;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
   }
 
   h1 {
@@ -66,14 +194,7 @@
   ::placeholder {
     color: rgba(237, 232, 187);
   }
-  h1 {
-    margin-bottom: 0;
-  }
 
-  p {
-    color: white;
-    font-size: 1.1em;
-  }
   form {
     display: flex;
     flex-direction: column;
@@ -119,19 +240,25 @@
 
   input,
   textarea {
-    width: 600px;
+    width: 500px;
     height: 30px;
     border: 2px solid rgba(255, 255, 255, 0.5);
     padding: 5px;
     background-color: #1d2242;
     color: #ccd0e8;
-    font-family: verdana;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
     font-size: 0.9em;
     border-radius: 10px;
   }
 
+  .formHeader {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+  }
+
   .body {
-    width: 600px;
+    width: 500px;
     height: 150px;
     resize: none;
   }
@@ -156,10 +283,6 @@
     p {
       width: 100%;
       margin: 0;
-    }
-    .txt {
-      padding-bottom: 10px;
-      font-size: 1em;
     }
   }
 

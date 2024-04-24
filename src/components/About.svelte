@@ -1,7 +1,7 @@
 <script>
   import calFootball from "../assets/contactImages/calFootball.jpg";
   import fleurRock from "../assets/contactImages/fleurRock.jpg";
-  import calfootie from "../assets/contactImages/cal-footie.jpg";
+  import calloch from "../assets/contactImages/calLoch.jpg";
 </script>
 
 <div id="about">
@@ -22,7 +22,7 @@
       </p>
     </div>
     <div class="aboutImages">
-      <img src={calfootie} alt="" />
+      <img src={calloch} alt="" />
       <img src={fleurRock} alt="" />
     </div>
   </div>
@@ -69,6 +69,7 @@
   p {
     font-size: 1.5em;
     letter-spacing: 1px;
+    font-family: "sans-serif";
   }
   img {
     width: auto;
