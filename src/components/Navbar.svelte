@@ -39,6 +39,8 @@
     margin-left: 20px;
     font-size: 1.2em;
     color: rgba(200, 255, 200);
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
   }
 
   a:hover {

@@ -81,6 +81,8 @@
   }
 
   .button-74 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
     background-color: rgba(214, 144, 24);
     border: 2px solid #422800;
     border-radius: 10px;

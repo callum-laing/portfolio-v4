@@ -183,7 +183,9 @@
   a {
     margin: 20px;
     text-decoration: none;
-    color: black;
+    color: rgba(200, 255, 200);
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
   }
 
   a:hover {
