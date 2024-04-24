@@ -134,6 +134,12 @@ h1 {
     color: rgba(200, 200, 200);
  }
 
+ h2 {
+        font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+ }
+
 
  @media (max-width: 769px) {
     .projectWrapper {

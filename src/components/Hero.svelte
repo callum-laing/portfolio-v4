@@ -40,6 +40,7 @@
         width: 40%;
         padding-right: 20px;
         line-height: 80px;
+        padding-top: 75px;
 }
     
 h1 {
