@@ -26,6 +26,7 @@
 	padding-left: 50px;
     padding-right: 50px;
 	padding-top: 150px;
+	padding-bottom: 100px;
 	}
 
 	.grid-wrap {

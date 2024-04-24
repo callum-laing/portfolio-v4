@@ -20,9 +20,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    border-top: 1px solid white;
-    padding: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.07);
+    border-top: 1px solid rgba(255,255,255,0.3);
 }
 
 h2 {

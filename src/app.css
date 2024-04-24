@@ -7,10 +7,14 @@ body {
 }
 
 h1 {
-  /* font-family: "Oregano", cursive; */
-
-
+  font-family: "Young Serif", serif;
+  letter-spacing: 0.5px;
 }
+
+p {
+  font-family: sans-serif;
+}
+
 
 h1,
 h2,
@@ -19,5 +23,5 @@ h4,
 h5,
 p,
 a {
-  color: white;
+  color: rgba(250, 250, 250);
 }

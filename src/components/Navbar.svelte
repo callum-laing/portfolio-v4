@@ -25,14 +25,15 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        color: white;
-        margin-bottom: 100px;
-        margin-top: 25px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        backdrop-filter: blur(20px);
+        background: rgba(255,255,255,0.07);
+        border-bottom: 1px solid rgba(255,255,255,0.3);
     }
 
     a {
         text-decoration: none;
-        color: white;
         margin-left: 20px;
         font-size: 1.2em;
     }
