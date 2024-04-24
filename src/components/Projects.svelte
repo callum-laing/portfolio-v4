@@ -119,6 +119,7 @@ h1 {
         height: auto;;
         filter: brightness(0.8);
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
     }
 
  a {

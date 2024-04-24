@@ -75,6 +75,7 @@
 		font-size: 1.1em;
 		font-family: 'Fjalla One', sans-serif;
         border: 1px solid white;
+		border-radius: 10px;
 	}
 
 	button:hover {
