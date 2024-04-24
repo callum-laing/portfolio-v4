@@ -8,8 +8,8 @@
 
 <div id="contactContainer">
   <div class="aboutContainer">
-    <div class="aboutMe">
-      <h1 class="contact">Who am I?</h1>
+    <div class="aboutMe contact">
+      <h1>About Me.</h1>
       <p>
         I'm a <span class="highlight">Front-End Developer</span> with a background
         in sales administration and a passion for coding. By day, I'm immersed in
@@ -120,8 +120,6 @@
 <style>
   #contactContainer {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 150px;
@@ -141,13 +139,6 @@
     margin-bottom: 100px;
     padding-block: 50px;
     gap: 20px;
-  }
-
-  .grid-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
   }
 
   .skillIcons {
@@ -189,6 +180,7 @@
   h1 {
     font-size: 4em;
     margin: 0;
+    display: inline-block;
     background-image: linear-gradient(
       to right,
       rgba(237, 232, 187),
@@ -198,7 +190,6 @@
     background-position: bottom;
     background-repeat: no-repeat;
     margin-bottom: 25px;
-    color: rgba(200, 255, 200);
   }
 
   ::placeholder {
@@ -275,11 +266,9 @@
   }
 
   @media (max-width: 769px) {
-    .grid-wrap {
-      display: flex;
+    #contactContainer {
+      align-items: center;
       flex-direction: column;
-      margin-bottom: 50px;
-      gap: 10px;
     }
     input,
     textarea,
@@ -303,9 +292,6 @@
       margin: 0;
       padding-bottom: 25px;
     }
-    h1 {
-      text-align: center;
-    }
   }
 
   @media (min-width: 770px) and (max-width: 1024px) {
@@ -315,6 +301,9 @@
     }
     p {
       width: 100%;
+    }
+    .skillsContainer {
+      display: none;
     }
   }
 </style>

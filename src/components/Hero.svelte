@@ -63,6 +63,7 @@
   a {
     text-decoration: none;
     color: black;
+    margin-top: 25px;
   }
 
   p {
@@ -123,9 +124,13 @@
     }
     .subtitle {
       font-size: 1rem;
+      margin-top: 10px;
     }
     img {
       display: none;
+    }
+    a {
+      margin-top: 50px;
     }
   }
 
