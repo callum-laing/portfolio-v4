@@ -5,11 +5,8 @@
   import Navbar from "./components/Navbar.svelte";
   import Hero from "./components/Hero.svelte";
   import Projects from "./components/Projects.svelte";
-  import Skills from "./components/Skills.svelte";
-  import About from "./components/About.svelte";
   import Contact from "./components/Contact.svelte";
   import Footer from "./components/Footer.svelte";
-  import Hire from "./components/Hire.svelte";
 </script>
 
 <main>
@@ -17,9 +14,6 @@
   <Navbar />
   <Hero />
   <Projects />
-  <!-- <Hire /> -->
-  <!-- <Skills /> -->
-  <!-- <About /> -->
   <Contact />
   <Footer />
 </main>

@@ -4,7 +4,6 @@
   import shop from "../assets/shop.jpg";
   import memoryCard from "../assets/memoryCard.jpg";
   import etchASketch from "../assets/etchASketch.jpg";
-  import calculator from "../assets/calculator.jpg";
 </script>
 
 <div id="projects" class="projectSection">
@@ -109,15 +108,6 @@
         >
       </span>
     </div>
-    <!-- <div class="projSix projCard">
-            <h2>Calculator</h2>
-            <img src={calculator} alt="">
-            <p>Built a simple yet efficient calculator application to handle everyday arithmetic tasks with ease.</p>
-            <span>
-                <a href="https://callum-laing.github.io/calculator/" target="_blank">Live Demo</a>
-                <a href="https://github.com/callum-laing/calculator" target="_blank">Github Repo</a>
-            </span>
-        </div> -->
   </div>
 </div>
 

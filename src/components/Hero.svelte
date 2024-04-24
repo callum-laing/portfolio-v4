@@ -1,6 +1,4 @@
 <script>
-  import cal from "../assets/contactImages/cal.jpg";
-  import calFootball from "../assets/calFootball.jpg";
   import calfootie from "../assets/contactImages/calfootie.png";
 
   function scrollToElement(event) {
