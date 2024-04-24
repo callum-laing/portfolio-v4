@@ -8,7 +8,7 @@
 </script>
 
 <div id="projects" class="projectSection">
-  <h1>Projects</h1>
+  <h1>Projects.</h1>
   <div class="projectWrapper">
     <div class="projOne projCard">
       <h2>Shopping Cart</h2>
