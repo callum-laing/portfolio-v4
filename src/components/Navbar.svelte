@@ -15,7 +15,6 @@
 <nav>
   <div class="links">
     <a class="alink" href="#projects" on:click={scrollToElement}>Projects</a>
-    <a class="alink" href="#about" on:click={scrollToElement}>About</a>
     <a class="alink" href="#contactContainer" on:click={scrollToElement}
       >Contact</a
     >

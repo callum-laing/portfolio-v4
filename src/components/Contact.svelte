@@ -80,7 +80,9 @@
       </div>
     </div>
   </div>
+
   <div class="grid-wrap">
+    <h1>Let's chat.</h1>
     <form action="https://formspree.io/f/xknykdjb" method="POST">
       <label for="subject">
         <p class="formHeader">Your name:</p>
@@ -259,7 +261,7 @@
 
   .body {
     width: 500px;
-    height: 150px;
+    height: auto;
     resize: none;
   }
 
