@@ -40,7 +40,6 @@
     font-size: 3rem;
     width: 40%;
     padding-right: 20px;
-    line-height: 80px;
     padding-top: 75px;
   }
 
@@ -109,11 +108,21 @@
   }
 
   @media (max-width: 769px) {
+    #heroWrapper {
+      padding-top: 100px;
+      padding-bottom: 200px;
+    }
     .intro {
       height: 100%;
+      width: auto;
+      text-align: center;
+      padding-right: 0;
     }
     h1 {
-      font-size: 5rem;
+      font-size: 3.5rem;
+    }
+    .subtitle {
+      font-size: 1rem;
     }
     img {
       display: none;

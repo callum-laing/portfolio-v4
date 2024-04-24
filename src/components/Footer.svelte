@@ -61,11 +61,11 @@
 
   @media (max-width: 769px) {
     h2 {
-      font-size: 1em;
+      font-size: 0.8rem;
       margin-left: none;
     }
     .linkIcon {
-      font-size: 1em;
+      font-size: 0.8rem;
       width: 100%;
     }
     a {

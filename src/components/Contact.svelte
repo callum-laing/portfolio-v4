@@ -180,7 +180,6 @@
   h1 {
     font-size: 4em;
     margin: 0;
-    display: inline-block;
     background-image: linear-gradient(
       to right,
       rgba(237, 232, 187),
@@ -242,7 +241,7 @@
 
   input,
   textarea {
-    width: 500px;
+    width: 600px;
     height: 30px;
     border: 2px solid rgba(255, 255, 255, 0.5);
     padding: 5px;
@@ -260,7 +259,7 @@
   }
 
   .body {
-    width: 500px;
+    width: 600px;
     height: auto;
     resize: none;
   }
@@ -284,7 +283,18 @@
     }
     p {
       width: 100%;
+      margin-bottom: 10px;
+    }
+    .skillsContainer {
+      display: none;
+    }
+    .aboutContainer {
+      width: 100%;
       margin: 0;
+      padding-bottom: 25px;
+    }
+    h1 {
+      text-align: center;
     }
   }
 
