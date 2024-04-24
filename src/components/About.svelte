@@ -7,7 +7,7 @@
 <div id="about"> 
     <div class="aboutWrapper">
         <div class="aboutMe">
-            <h1>Who Am I?</h1>
+            <h1>Who am I?</h1>
             <p>I'm a Front-End Developer with a background in sales administration and a passion for coding. By day, I'm immersed in the world of sales operations, where I thrive on ensuring seamless processes and supporting the sales team.</p>
             <p>Outside of work, I'm a sports enthusiast and enjoy playing American football at the highest level in the UK. Hiking with my partner and our dog, typically in the Scottish Highlands, is another favourite hobby of mine, allowing me to unwind and take in the breath-taking scenery.</p>
         </div>
