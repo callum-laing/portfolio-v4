@@ -1,6 +1,5 @@
 <script>
     import calFootball from '../assets/contactImages/calFootball.jpg';
-    import calRock from '../assets/contactImages/calRock.jpg';
     import fleurRock from '../assets/contactImages/fleurRock.jpg';
 </script>
 
