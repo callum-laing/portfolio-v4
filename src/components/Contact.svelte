@@ -90,11 +90,17 @@
           type="text"
           name="subject"
           placeholder="What should I call you?"
+          required
         />
       </label>
       <label for="email">
         <p class="formHeader">Your email:</p>
-        <input type="email" name="subject" placeholder="What is your email?" />
+        <input
+          type="email"
+          name="subject"
+          placeholder="What is your email?"
+          required
+        />
       </label>
       <label for="body">
         <p class="formHeader">Message:</p>
@@ -103,6 +109,7 @@
           name="body"
           class="body"
           placeholder="Please leave your message here..."
+          required
         />
       </label>
       <button class="button-74" type="submit">Send</button>
@@ -126,15 +133,6 @@
     margin-right: 50px;
   }
 
-  .skillIcons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-  }
-
   .skillsContainer {
     display: flex;
     flex-wrap: wrap;
@@ -143,6 +141,22 @@
     margin-bottom: 100px;
     padding-block: 50px;
     gap: 20px;
+  }
+
+  .grid-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .skillIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
   }
 
   span {
@@ -159,17 +173,12 @@
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
   }
+
   a {
     text-decoration: none;
     color: rgba(237, 232, 187);
   }
 
-  .grid-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
   p {
     color: white;
     font-size: 1.1em;
@@ -256,6 +265,7 @@
   .formHeader {
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
+    margin: 0;
   }
 
   .body {
