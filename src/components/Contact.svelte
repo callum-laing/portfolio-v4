@@ -134,7 +134,7 @@
   .skillsContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 100px;
     padding-block: 50px;
@@ -203,6 +203,9 @@
     gap: 10px;
   }
 
+  .formHeader {
+    padding-top: 20px;
+  }
   .button-74 {
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
@@ -292,6 +295,9 @@
       width: 100%;
       margin: 0;
       padding-bottom: 25px;
+    }
+    .formHeader {
+      padding-top: 20px;
     }
   }
 

@@ -187,6 +187,7 @@
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    margin: 5px;
   }
 
   @media (max-width: 768px) {
