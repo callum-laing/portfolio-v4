@@ -20,11 +20,7 @@
         Outside of work, I'm a sports enthusiast and enjoy playing American
         football at the highest level in the UK. Hiking with my partner and our
         dog, typically in the Scottish Highlands, is another favourite hobby of
-        mine, allowing me to unwind and take in the breath-taking scenery. <span
-          ><a href="https://callum-laing.github.io/resume/" target="_blank"
-            >Hire me!</a
-          ></span
-        >
+        mine, allowing me to unwind and take in the breath-taking scenery.
       </p>
       <div class="skillsContainer">
         <div class="skillIcons">
@@ -281,9 +277,9 @@
       height: auto;
       margin: 0 auto;
     }
-    h1 {
+    /* h1 {
       font-size: 2rem;
-    }
+    } */
     p {
       width: 100%;
       margin-bottom: 10px;
