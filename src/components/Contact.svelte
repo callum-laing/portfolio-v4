@@ -233,6 +233,7 @@
   .button-74:hover {
     background-color: rgba(100, 100, 100);
     box-shadow: none;
+    transition: 0.2s ease;
   }
 
   .button-74:active {
