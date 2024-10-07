@@ -45,17 +45,15 @@
 
   a {
     text-decoration: none;
-    margin-left: 20px;
     font-size: 1.2em;
     color: rgba(200, 255, 200);
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
-    border-right: 1px solid rgba(237, 232, 187);
-    padding-right: 20px;
+    margin: 10px;
   }
 
   a:hover {
-    color: rgba(237, 232, 187);
+    border-bottom: 2px solid rgba(237, 232, 187);
   }
 
   @media (max-width: 768px) {

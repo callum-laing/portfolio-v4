@@ -17,7 +17,7 @@
 <div id="heroWrapper">
   <div class="intro">
     <h1>CALLUM LAING</h1>
-    <p class="subtitle">Front-End Developer in Cambridge, UK.</p>
+    <p class="subtitle">Front-End Developer in England, UK.</p>
   </div>
   <img class="calImg" src={calfootie} alt="" />
 </div>

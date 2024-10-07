@@ -159,7 +159,6 @@
 
   a:hover {
     border-bottom: 2px solid rgba(237, 232, 187);
-    color: rgba(200, 200, 200);
   }
 
   h2 {

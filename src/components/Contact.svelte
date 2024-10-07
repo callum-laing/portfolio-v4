@@ -11,16 +11,23 @@
     <div class="aboutMe contact">
       <h1>About Me.</h1>
       <p>
-        I'm a <span class="highlight">Front-End Developer</span> with a background
-        in sales administration and a passion for coding. By day, I'm immersed in
-        the world of sales operations, where I thrive on ensuring seamless processes
-        and supporting the sales team.
+        Thanks for checking out my site! I hope I've been able to showcase some
+        of the skills that you look for in hiring your next Junior Front-End
+        Developer.
       </p>
       <p>
-        Outside of work, I'm a sports enthusiast and enjoy playing American
-        football at the highest level in the UK. Hiking with my partner and our
-        dog, typically in the Scottish Highlands, is another favourite hobby of
-        mine, allowing me to unwind and take in the breath-taking scenery.
+        I've spent majority of my working career in Sales or Administrative
+        positions, and always looked at coding as a hobby that I'd pick up and
+        try to learn whenever time allowed. Whilst that worked for basic tasks,
+        it wasn't productive in the long run, and since I really enjoyed it, I
+        decided to invest as much spare time as I could outside (sometimes
+        inside) of work to become a Front End Developer.
+      </p>
+
+      <p>
+        It's been a wild ride so far, and since recently retiring from 20 years
+        of playing Rugby and American Football, it's been really nice to
+        redirect that energy and passion into Web Development.
       </p>
       <div class="skillsContainer">
         <div class="skillIcons">
@@ -108,7 +115,7 @@
           required
         />
       </label>
-      <button class="button-74" type="submit">Send</button>
+      <button class="button-74" type="submit">Submit</button>
     </form>
   </div>
 </div>
@@ -207,23 +214,24 @@
     font-optical-sizing: auto;
     background-color: rgba(214, 144, 24);
     border: 2px solid #422800;
-    border-radius: 10px;
+    border-radius: 5px;
     color: black;
     cursor: pointer;
     display: inline-block;
     font-weight: 600;
     font-size: 18px;
     padding: 0 18px;
-    line-height: 50px;
+    line-height: 40px;
     text-align: center;
     text-decoration: none;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    width: 25%;
   }
 
   .button-74:hover {
-    background-color: white;
+    background-color: rgba(100, 100, 100);
     box-shadow: none;
   }
 
@@ -245,12 +253,12 @@
     height: 30px;
     border: 2px solid rgba(255, 255, 255, 0.5);
     padding: 5px;
-    background-color: #1d2242;
+    background-color: transparent;
     color: #ccd0e8;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-size: 0.9em;
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
   .formHeader {
