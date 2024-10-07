@@ -14,9 +14,10 @@
 
 <nav>
   <div class="links">
+    <a class="alink" href="#heroWrapper" on:click={scrollToElement}>Home</a>
     <a class="alink" href="#projects" on:click={scrollToElement}>Projects</a>
     <a class="alink" href="#contactContainer" on:click={scrollToElement}
-      >Contact</a
+      >About</a
     >
   </div>
 </nav>
@@ -26,11 +27,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.07);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
   }
 
   a {
@@ -44,7 +47,6 @@
 
   a:hover {
     border-bottom: 2px solid rgba(237, 232, 187);
-    color: rgba(200, 200, 200);
   }
 
   .links {

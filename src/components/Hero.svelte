@@ -18,11 +18,6 @@
   <div class="intro">
     <h1>CALLUM LAING</h1>
     <p class="subtitle">Front-End Developer in Cambridge, UK.</p>
-    <div>
-      <a class="button-74" href="#contactContainer" on:click={scrollToElement}
-        >About me...</a
-      >
-    </div>
   </div>
   <img class="calImg" src={calfootie} alt="" />
 </div>

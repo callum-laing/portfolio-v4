@@ -67,7 +67,7 @@
         >
       </span>
     </div>
-    <div class="projFour projCard">
+    <!-- <div class="projFour projCard">
       <h2>Tic Tac Toe</h2>
       <img src={ticTacToe} alt="" />
       <p>
@@ -86,28 +86,7 @@
           target="_blank">Github Repo</a
         >
       </span>
-    </div>
-
-    <div class="projFive projCard">
-      <h2>Etch-A-Sketch</h2>
-      <img src={etchASketch} alt="" />
-      <p>
-        Crafted an interactive Etch-a-Sketch platform for doodling and
-        creativity.
-      </p>
-      <span>
-        <a
-          class="alink"
-          href="https://callum-laing.github.io/etch-a-sketch/"
-          target="_blank">Live Demo</a
-        >
-        <a
-          class="alink"
-          href="https://github.com/callum-laing/etch-a-sketch"
-          target="_blank">Github Repo</a
-        >
-      </span>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -136,7 +115,7 @@
 
   .projectWrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
     gap: 100px;
     width: 100%;
@@ -149,11 +128,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid rgba(237, 232, 187);
+    /* border-bottom: 1px solid rgba(237, 232, 187);
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.07);
     border-radius: 8px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.3); */
   }
 
   .projCard > p {
@@ -163,7 +142,7 @@
   }
 
   img {
-    width: 100%;
+    width: 50%;
     height: auto;
     filter: brightness(0.8);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

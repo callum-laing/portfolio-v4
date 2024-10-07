@@ -15,11 +15,11 @@
           >Linkedin</a
         ></span
       >
-      <span class="linkIcon"
+      <!-- <span class="linkIcon"
         ><a href="https://callum-laing.github.io/resume/" target="_blank"
           >Resume</a
-        ></span
-      >
+        ></span 
+      > -->
     </div>
     <h2>©2024 Callum Laing</h2>
   </div>
@@ -30,11 +30,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.07);
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   h2 {
