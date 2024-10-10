@@ -9,25 +9,22 @@
 <div id="contactContainer">
   <div class="aboutContainer">
     <div class="aboutMe contact">
-      <h1>About Me.</h1>
+      <h1 class="aboutTitle">About Me.</h1>
       <p>
         Thanks for checking out my site! I hope I've been able to showcase some
-        of the skills that you look for in hiring your next Junior Front-End
-        Developer.
+        of the skills you're looking for in hiring your next Web Developer.
       </p>
       <p>
-        I've spent majority of my working career in Sales or Administrative
-        positions, and always looked at coding as a hobby that I'd pick up and
-        try to learn whenever time allowed. Whilst that worked for basic tasks,
-        it wasn't productive in the long run, and since I really enjoyed it, I
-        decided to invest as much spare time as I could outside (sometimes
-        inside) of work to become a Front End Developer.
+        I've spent most of my career in Sales or Administrative positions and
+        always looked at coding as a hobby that I'd learn whenever time allowed.
+        It wasn't long before I decided that this hobby had to become a career,
+        and I have since invested real time in growing as a Web Developer.
       </p>
 
       <p>
-        It's been a wild ride so far, and since recently retiring from 20 years
-        of playing Rugby and American Football, it's been really nice to
-        redirect that energy and passion into Web Development.
+        It's an exciting journey, and since recently retiring from many years of
+        playing Rugby and American Football, it's been fulfilling redirecting
+        that energy and passion into Web Development.
       </p>
       <div class="skillsContainer">
         <div class="skillIcons">
@@ -85,7 +82,7 @@
   </div>
 
   <div class="grid-wrap">
-    <h1>Let's chat.</h1>
+    <h1 id="contactLink">Let's chat.</h1>
     <form action="https://formspree.io/f/xknykdjb" method="POST">
       <label for="subject">
         <p class="formHeader">Your name:</p>
@@ -159,15 +156,6 @@
     font-optical-sizing: auto;
   }
 
-  .highlight {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgba(237, 232, 187);
-    font-style: normal;
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-  }
-
   a {
     text-decoration: none;
     color: rgba(237, 232, 187);
@@ -227,7 +215,6 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 25%;
   }
 
   .button-74:hover {
@@ -243,7 +230,7 @@
 
   @media (min-width: 768px) {
     .button-74 {
-      min-width: 120px;
+      width: 100%;
       padding: 0 25px;
     }
   }
@@ -278,7 +265,19 @@
     #contactContainer {
       align-items: center;
       flex-direction: column;
+      justify-content: center;
+      padding-top: 0;
+      padding-bottom: 0;
     }
+
+    .grid-wrap {
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
     input,
     textarea,
     .body {
@@ -286,9 +285,6 @@
       height: auto;
       margin: 0 auto;
     }
-    /* h1 {
-      font-size: 2rem;
-    } */
     p {
       width: 100%;
       margin-bottom: 10px;
@@ -297,9 +293,12 @@
       display: none;
     }
     .aboutContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 100%;
       margin: 0;
-      padding-bottom: 25px;
+      height: 100dvh;
     }
     .formHeader {
       padding-top: 20px;

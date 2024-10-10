@@ -19,6 +19,7 @@
     <a class="alink" href="#contactContainer" on:click={scrollToElement}
       >About</a
     >
+    <a class="alink" href="#contactLink" on:click={scrollToElement}>Contact</a>
   </div>
 </nav>
 
@@ -29,8 +30,8 @@
     align-items: center;
     padding-bottom: 15px;
     padding-top: 15px;
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.07);
+    /* backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.07); */
     position: fixed;
     width: 100%;
     z-index: 1000;

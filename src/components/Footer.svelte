@@ -32,8 +32,8 @@
     align-items: center;
     padding-bottom: 15px;
     padding-top: 15px;
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.07);
+    /* backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.07); */
   }
 
   h2 {

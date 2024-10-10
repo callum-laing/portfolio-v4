@@ -183,6 +183,9 @@
     .projectSection {
       margin-top: 50px;
     }
+    h1 {
+      text-align: center;
+    }
   }
 
   @media (min-width: 769px) and (max-width: 1024px) {
@@ -191,6 +194,9 @@
     }
     a {
       margin: 10px;
+    }
+    h1 {
+      text-align: center;
     }
   }
 </style>
