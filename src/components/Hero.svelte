@@ -89,7 +89,7 @@
       font-size: 1.3rem;
     }
     img {
-      opacity: 25%;
+      opacity: 50%;
       height: 400px;
     }
 
@@ -100,7 +100,12 @@
 
   @media (min-width: 769px) and (max-width: 1024px) {
     #heroWrapper {
-      height: 100;
+      display: flex;
+      padding-top: 30%;
+      height: 100dvh;
+    }
+    .subtitle {
+      font-size: 1.2rem;
     }
   }
 </style>

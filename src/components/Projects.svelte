@@ -173,6 +173,7 @@
     .projectWrapper {
       grid-template-columns: 1fr;
     }
+
     img {
       width: 100%;
       height: auto;
@@ -182,6 +183,7 @@
     }
     .projectSection {
       margin-top: 50px;
+      text-align: center;
     }
     h1 {
       text-align: center;

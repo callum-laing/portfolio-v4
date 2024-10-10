@@ -299,6 +299,7 @@
       width: 100%;
       margin: 0;
       height: 100dvh;
+      text-align: center;
     }
     .formHeader {
       padding-top: 20px;
