@@ -41,19 +41,23 @@
     margin-left: 25px;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
+    color: rgba(237, 232, 187);
   }
 
   a {
     text-decoration: none;
     font-size: 1.2em;
-    color: rgba(200, 255, 200);
+    color: rgba(237, 232, 187);
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     margin: 10px;
   }
 
   a:hover {
-    border-bottom: 2px solid rgba(237, 232, 187);
+    text-decoration-line: underline;
+    text-decoration-color: rgba(50, 250, 250, 0.7);
+    text-underline-offset: 0.15em;
+    text-decoration-thickness: 0.2em;
   }
 
   @media (max-width: 768px) {

@@ -19,7 +19,7 @@
     <h1>CALLUM LAING</h1>
     <p class="subtitle">Front-End Developer in England, UK.</p>
   </div>
-  <img class="calImg" src={calfootie} alt="" />
+  <!-- <img class="calImg" src={calfootie} alt="" /> -->
 </div>
 
 <style>
@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: flex-start;
     padding-top: 200px;
-    padding-bottom: 250px;
+    min-height: 100dvh;
   }
 
   .intro {
@@ -39,7 +39,7 @@
   }
 
   h1 {
-    font-size: 8rem;
+    font-size: 8.5rem;
     margin: 0;
   }
 

@@ -112,7 +112,7 @@
           required
         />
       </label>
-      <button class="button-74" type="submit">Submit</button>
+      <button class="formSubmit" type="submit">Submit</button>
     </form>
   </div>
 </div>
@@ -162,7 +162,7 @@
   }
 
   p {
-    color: white;
+    color: rgba(200, 200, 200);
     font-size: 1.1em;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
@@ -170,17 +170,12 @@
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 5em;
     margin: 0;
     display: inline-block;
-    background-image: linear-gradient(
-      to right,
-      rgba(237, 232, 187),
-      rgba(237, 232, 187)
-    );
-    background-size: 100% 2px;
-    background-position: bottom;
-    background-repeat: no-repeat;
+    text-decoration-line: underline;
+    text-decoration-color: rgba(237, 232, 187);
+    text-underline-offset: 0.15em;
     margin-bottom: 25px;
   }
 
@@ -197,62 +192,45 @@
   .formHeader {
     padding-top: 20px;
   }
-  .button-74 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    background-color: rgba(214, 144, 24);
-    border: 2px solid #422800;
-    border-radius: 5px;
-    color: black;
+
+  .formSubmit {
+    width: 5em;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgba(0 0, 20);
+    color: rgba(237, 232, 187);
+    border: 1px solid rgba(237, 232, 187);
+    border-radius: 3px;
+  }
+
+  .formSubmit:hover {
+    background-color: rgba(237, 232, 187);
+    color: rgba(0 0, 20);
     cursor: pointer;
-    display: inline-block;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 0 18px;
-    line-height: 40px;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-
-  .button-74:hover {
-    background-color: rgba(100, 100, 100);
-    box-shadow: none;
-    transition: 0.2s ease;
-  }
-
-  .button-74:active {
-    box-shadow: #422800 2px 2px 0 0;
-    transform: translate(2px, 2px);
-  }
-
-  @media (min-width: 768px) {
-    .button-74 {
-      width: 100%;
-      padding: 0 25px;
-    }
   }
 
   input,
   textarea {
     width: 600px;
     height: 30px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.2);
     padding: 5px;
-    background-color: transparent;
+    background-color: rgba(0 0, 20);
     color: #ccd0e8;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-size: 0.9em;
-    border-radius: 5px;
+    border-radius: 3px;
   }
 
   .formHeader {
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
+    font-weight: bold;
     margin: 0;
+    padding-bottom: 5px;
+    color: rgba(200, 200, 200);
   }
 
   .body {

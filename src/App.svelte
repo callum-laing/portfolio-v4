@@ -10,7 +10,7 @@
 </script>
 
 <main>
-  <Background />
+  <!-- <Background /> -->
   <Navbar />
   <Hero />
   <Projects />

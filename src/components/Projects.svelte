@@ -11,11 +11,11 @@
   <div class="projectWrapper">
     <div class="projOne projCard">
       <h2>Shopping Cart</h2>
-      <img src={shop} alt="" />
       <p>
         Crafted an intuitive shopping cart platform for seamless online shopping
         experiences.
       </p>
+      <img src={shop} alt="" />
       <span>
         <a class="alink" href="https://shopping-site.pages.dev/" target="_blank"
           >Live Demo</a
@@ -29,11 +29,11 @@
     </div>
     <div class="projTwo projCard">
       <h2>Memory Card</h2>
-      <img src={memoryCard} alt="" />
       <p>
         Created a memory card game to test memory skills and provide enjoyable
         entertainment.
       </p>
+      <img src={memoryCard} alt="" />
       <span>
         <a
           class="alink"
@@ -49,11 +49,11 @@
     </div>
     <div class="projThree projCard">
       <h2>Todo List</h2>
-      <img src={todoList} alt="" />
       <p>
         Designed a straightforward to-do list app for organizing tasks and
         boosting productivity.
       </p>
+      <img src={todoList} alt="" />
       <span>
         <a
           class="alink"
@@ -67,13 +67,13 @@
         >
       </span>
     </div>
-    <!-- <div class="projFour projCard">
+    <div class="projFour projCard">
       <h2>Tic Tac Toe</h2>
-      <img src={ticTacToe} alt="" />
       <p>
         Developed a classic Tic-Tac-Toe game for nostalgic fun and strategic
         challenges.
       </p>
+      <img src={ticTacToe} alt="" />
       <span>
         <a
           class="alink"
@@ -86,73 +86,62 @@
           target="_blank">Github Repo</a
         >
       </span>
-    </div> -->
+    </div>
   </div>
 </div>
 
 <style>
   h1 {
-    font-size: 4em;
+    font-size: 5em;
     margin: 0;
-    display: inline-block;
-    background-image: linear-gradient(
-      to right,
-      rgba(237, 232, 187),
-      rgba(237, 232, 187)
-    );
-    background-size: 100% 2px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    margin-bottom: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: rgba(237, 232, 187);
+    text-underline-offset: 0.15em;
+    margin-bottom: 2em;
   }
 
   #projects {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 5em;
   }
-
   .projectWrapper {
     display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    gap: 100px;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
     width: 100%;
-    flex-wrap: wrap;
   }
 
   .projCard {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
-    /* border-bottom: 1px solid rgba(237, 232, 187);
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.07);
-    border-radius: 8px;
-    border: 2px solid rgba(255, 255, 255, 0.3); */
+    border-radius: 3px;
+    background-color: rgba(250, 250, 250, 0.2);
   }
 
   .projCard > p {
     word-wrap: break-word;
     text-align: center;
     font-style: italic;
+    width: 50%;
   }
 
   img {
-    width: 50%;
+    width: 30em;
     height: auto;
     filter: brightness(0.8);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
+    border-radius: 3px;
   }
 
   a {
     margin: 20px;
     text-decoration: none;
-    color: rgba(200, 255, 200);
+    /* color: black;
+    font-weight: bold; */
+    /* color: rgba(200, 255, 200); */
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
   }
@@ -160,6 +149,10 @@
   a:hover {
     border-bottom: 2px solid rgba(237, 232, 187);
   }
+
+  /* p {
+    color: rgba(200, 200, 200);
+  } */
 
   h2 {
     font-family: "Roboto Condensed", sans-serif;
