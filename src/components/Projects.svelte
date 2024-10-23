@@ -9,80 +9,101 @@
   <h1>Projects</h1>
   <div class="projectWrapper">
     <div class="projOne projCard">
-      <h2>Shopping Cart</h2>
-      <p>
-        Using the React framework, I built an intuitive shopping cart platform
-        that delivers seamless online shopping experiences.
-      </p>
-      <span>
-        <a class="alink" href="https://shopping-site.pages.dev/" target="_blank"
-          >Live Demo</a
-        >
-        <a
-          class="alink"
-          href="https://github.com/callum-laing/shopping-site"
-          target="_blank">Github Repo</a
-        >
-      </span>
-      <img src={shop} alt="" />
+      <div class="card-info">
+        <h2>Shopping Cart</h2>
+        <p>
+          Using the React framework, I built an intuitive shopping cart platform
+          that delivers seamless online shopping experiences.
+        </p>
+        <span>
+          <a
+            class="alink"
+            href="https://shopping-site.pages.dev/"
+            target="_blank">Live Demo</a
+          >
+          <a
+            class="alink"
+            href="https://github.com/callum-laing/shopping-site"
+            target="_blank">Github Repo</a
+          >
+        </span>
+      </div>
+      <div class="card-img">
+        <img src={shop} alt="" />
+      </div>
     </div>
+
     <div class="projTwo projCard">
-      <h2>Memory Card</h2>
-      <p>
-        Created a memory card game with the React framework to test memory
-        skills and provide enjoyable entertainment.
-      </p>
-      <span>
-        <a
-          class="alink"
-          href="https://sv-memory-card.pages.dev/"
-          target="_blank">Live Demo</a
-        >
-        <a
-          class="alink"
-          href="https://github.com/callum-laing/sv-memory-card"
-          target="_blank">Github Repo</a
-        >
-      </span>
-      <img src={memoryCard} alt="" />
+      <div class="card-info">
+        <h2>Memory Card</h2>
+        <p>
+          Created a memory card game with the React framework to test memory
+          skills and provide enjoyable entertainment.
+        </p>
+        <span>
+          <a
+            class="alink"
+            href="https://sv-memory-card.pages.dev/"
+            target="_blank">Live Demo</a
+          >
+          <a
+            class="alink"
+            href="https://github.com/callum-laing/sv-memory-card"
+            target="_blank">Github Repo</a
+          >
+        </span>
+      </div>
+      <div class="card-img">
+        <img src={memoryCard} alt="" />
+      </div>
     </div>
+
     <div class="projThree projCard">
-      <h2>Todo List</h2>
-      <p>
-        Using the Svelte framework, I developed a straightforward to-do list
-        project for organizing tasks and boosting productivity.
-      </p>
-      <span>
-        <a
-          class="alink"
-          href="https://svelte-todo-app-73m.pages.dev/"
-          target="_blank">Live Demo</a
-        >
-        <a
-          class="alink"
-          href="https://github.com/callum-laing/svelte-todo-app"
-          target="_blank">Github Repo</a
-        >
-      </span>
-      <img src={todoList} alt="" />
+      <div class="card-info">
+        <h2>Todo List</h2>
+        <p>
+          Using the Svelte framework, I developed a straightforward to-do list
+          project for organizing tasks and boosting productivity.
+        </p>
+        <span>
+          <a
+            class="alink"
+            href="https://svelte-todo-app-73m.pages.dev/"
+            target="_blank">Live Demo</a
+          >
+          <a
+            class="alink"
+            href="https://github.com/callum-laing/svelte-todo-app"
+            target="_blank">Github Repo</a
+          >
+        </span>
+      </div>
+      <div class="card-img">
+        <img src={todoList} alt="" />
+      </div>
     </div>
+
     <div class="projFour projCard">
-      <h2>CDL Workout</h2>
-      <p>
-        Developed a minimalistic workout project using the Vue framework to
-        allow users to build customizable workout plans.
-      </p>
-      <span>
-        <a class="alink" href="https://cdl-workout.pages.dev/" target="_blank"
-          >Live Demo</a
-        >
-        <a
-          class="alink"
-          href="https://github.com/callum-laing/cdl-workout"
-          target="_blank">Github Repo</a
-        >
-      </span>
-      <img src={cdlworkout} alt="" />
+      <div class="card-info">
+        <h2>CDL Workout</h2>
+        <p>
+          Developed a minimalistic workout project using the Vue framework to
+          allow users to build customizable workout plans.
+        </p>
+        <span>
+          <a class="alink" href="https://cdl-workout.pages.dev/" target="_blank"
+            >Live Demo</a
+          >
+          <a
+            class="alink"
+            href="https://github.com/callum-laing/cdl-workout"
+            target="_blank">Github Repo</a
+          >
+        </span>
+      </div>
+      <div class="card-img">
+        <img src={cdlworkout} alt="" />
+      </div>
     </div>
   </div>
 </div>
@@ -114,23 +135,23 @@
   }
 
   .projCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 20px;
     border-radius: 3px;
     background-color: rgba(250, 250, 250, 0.1);
     box-shadow: 1px 1px 4px rgba(50, 50, 50);
+    gap: 10px;
   }
 
-  .projCard > p {
-    width: 50%;
-    text-align: center;
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   img {
-    width: 50em;
+    width: 100%;
     height: auto;
     filter: brightness(0.8);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

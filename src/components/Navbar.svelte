@@ -47,7 +47,7 @@
     text-decoration-line: underline;
     text-decoration-color: black;
     text-underline-offset: 0.15em;
-    text-decoration-thickness: 0.2em;
+    text-decoration-thickness: 0.1em;
   }
 
   .links {
