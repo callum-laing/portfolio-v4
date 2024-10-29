@@ -6,11 +6,14 @@
 </script>
 
 <div id="projects" class="projectSection">
-  <h1>Projects</h1>
+  <h2>Projects</h2>
   <div class="projectWrapper">
-    <div class="projOne projCard">
+    <div class="projCard">
+      <div class="card-img">
+        <img src={shop} alt="Shopping Cart Project" />
+      </div>
       <div class="card-info">
-        <h2>Shopping Cart</h2>
+        <h3>Shopping Cart</h3>
         <p>
           Using the React framework, I built an intuitive shopping cart platform
           that delivers seamless online shopping experiences.
@@ -28,14 +31,14 @@
           >
         </span>
       </div>
-      <div class="card-img">
-        <img src={shop} alt="" />
-      </div>
     </div>
 
-    <div class="projTwo projCard">
+    <div class="projCard">
+      <div class="card-img">
+        <img src={memoryCard} alt="Memory Card Game" />
+      </div>
       <div class="card-info">
-        <h2>Memory Card</h2>
+        <h3>Memory Card</h3>
         <p>
           Created a memory card game with the React framework to test memory
           skills and provide enjoyable entertainment.
@@ -53,14 +56,14 @@
           >
         </span>
       </div>
-      <div class="card-img">
-        <img src={memoryCard} alt="" />
-      </div>
     </div>
 
-    <div class="projThree projCard">
+    <div class="projCard">
+      <div class="card-img">
+        <img src={todoList} alt="To-Do List Project" />
+      </div>
       <div class="card-info">
-        <h2>Todo List</h2>
+        <h3>Todo List</h3>
         <p>
           Using the Svelte framework, I developed a straightforward to-do list
           project for organizing tasks and boosting productivity.
@@ -78,14 +81,14 @@
           >
         </span>
       </div>
-      <div class="card-img">
-        <img src={todoList} alt="" />
-      </div>
     </div>
 
-    <div class="projFour projCard">
+    <div class="projCard">
+      <div class="card-img">
+        <img src={cdlworkout} alt="CDL Workout Project" />
+      </div>
       <div class="card-info">
-        <h2>CDL Workout</h2>
+        <h3>CDL Workout</h3>
         <p>
           Developed a minimalistic workout project using the Vue framework to
           allow users to build customizable workout plans.
@@ -101,131 +104,123 @@
           >
         </span>
       </div>
-      <div class="card-img">
-        <img src={cdlworkout} alt="" />
-      </div>
     </div>
   </div>
 </div>
 
 <style>
-  h1 {
-    font-size: 5em;
+  body {
     margin: 0;
-    text-align: center;
-    text-decoration-line: underline;
-    text-decoration-color: black;
-    text-underline-offset: 0.05em;
-    text-decoration-thickness: 5px;
-    margin-bottom: 2em;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: bold;
-    font-style: normal;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
   }
 
   #projects {
-    padding: 5em;
+    min-height: 100vh;
+    padding: 1em;
+    background-color: rgb(26, 25, 25);
+    text-align: center;
   }
+
+  h2 {
+    font-size: 5rem;
+    line-height: 2;
+    margin-bottom: 1em;
+  }
+
   .projectWrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 60px;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 90%;
     margin: 0 auto;
   }
 
   .projCard {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
     border-radius: 3px;
     background-color: rgba(250, 250, 250, 0.1);
     box-shadow: 1px 1px 4px rgba(50, 50, 50);
-    gap: 10px;
   }
 
   .card-img {
     overflow: hidden;
+    position: relative;
+    height: 200px;
   }
 
   .card-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 0.5em 0;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 0.5em 0;
   }
 
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     filter: brightness(0.8);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 3px;
   }
 
   span {
-    margin-bottom: 10px;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
+
   a {
-    /* color: rgba(237, 232, 187); */
-    padding: 20px;
+    padding: 10px 15px;
     text-decoration: none;
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
     color: black;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
   }
 
   a:hover {
-    text-decoration-line: underline;
-    text-decoration-color: black;
-    text-underline-offset: 0.15em;
-    text-decoration-thickness: 0.2em;
+    text-decoration: underline;
+    text-decoration-color: white;
   }
 
-  h2 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin: 0 auto;
-    padding-bottom: 10px;
-  }
-
-  @media (max-width: 768px) {
-    #projects {
-      padding-left: 50px;
-      padding-right: 50px;
-      text-align: center;
-    }
+  @media (min-width: 768px) {
     .projectWrapper {
-      grid-template-columns: 1fr;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px;
+      width: 80%;
     }
 
-    img {
-      width: 100%;
+    .projCard {
+      flex-direction: row;
+      padding: 20px;
+    }
+
+    .card-img {
+      width: 40%;
       height: auto;
-    }
-    a {
-      margin: 5px;
+      margin-right: 15px;
     }
 
-    p {
-      display: none;
+    .card-info {
+      width: 60%;
     }
 
-    h1 {
-      text-align: start;
-      font-size: 4em;
-    }
-  }
-
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .projectWrapper {
-      grid-template-columns: 1fr;
-    }
-    a {
-      margin: 10px;
-    }
-    h1 {
-      text-align: center;
+    h2 {
+      font-size: 5em;
     }
   }
 </style>

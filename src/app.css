@@ -51,3 +51,16 @@ li {
   max-width: var(--p-max-width, 65ch);
   text-wrap: pretty;
 }
+
+h2 {
+  font-family: montserrat;
+}
+
+p,
+a,
+input,
+textarea,
+label,
+button {
+  font-family: "Open Sans";
+}

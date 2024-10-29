@@ -93,4 +93,29 @@
     width: 100%;
     left: 0;
   }
+
+  /* iPad Viewing */
+  @media (max-width: 1024px) {
+    h1 {
+      font-size: 6rem; /* Adjust size for iPads */
+    }
+
+    nav a {
+      font-size: 1.5rem; /* Adjust size for iPads */
+      margin: 0 15px; /* Adjust margin for iPads */
+    }
+  }
+
+  /* Mobile Viewing */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 4rem;
+      margin: 0 auto;
+    }
+
+    nav a {
+      font-size: 1.2rem;
+      margin: 0 10px;
+    }
+  }
 </style>

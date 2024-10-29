@@ -3,13 +3,15 @@
 
   import Hero from "./components/Hero.svelte";
   import Projects from "./components/Projects.svelte";
+  import About from "./components/About.svelte";
   import Contact from "./components/Contact.svelte";
 </script>
 
 <main>
   <Hero />
   <Projects />
-  <!-- <Contact /> -->
+  <About />
+  <Contact />
 </main>
 
 <style>
