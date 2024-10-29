@@ -50,6 +50,7 @@
       1px -1px 0 rgba(255, 255, 255, 0.2),
       -1px 1px 0 rgba(255, 255, 255, 0.2),
       1px 1px 0 rgba(255, 255, 255, 0.2);
+    line-height: 1.2;
   }
 
   nav {
@@ -59,19 +60,37 @@
   }
 
   nav a {
+    position: relative;
     font-size: 2rem;
-    margin: 0 20px;
+    margin: 0 30px;
     text-decoration: none;
     color: black;
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     font-style: normal;
     line-height: 1;
-    transition:
-      font-weight 1s eaase,
-      color 0.3s ease;
+    transition: color 0.3s ease;
   }
+
+  nav a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition:
+      width 0.3s ease,
+      left 0.3s ease;
+  }
+
   nav a:hover {
-    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  nav a:hover::after {
+    width: 100%;
+    left: 0;
   }
 </style>
