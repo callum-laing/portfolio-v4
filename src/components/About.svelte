@@ -1,4 +1,4 @@
-<section class="about">
+<section id="aboutSection" class="about">
   <h2>About</h2>
   <p>The about section is under construction... please check back later.</p>
 </section>

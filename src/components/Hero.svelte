@@ -1,24 +1,41 @@
 <script>
-  function scrollToElement(event) {
-    event.preventDefault();
-    const targetId = event.target.getAttribute("href").substring(1);
-    const targetElement = document.getElementById(targetId);
-    if (targetElement) {
-      targetElement.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
+  let projectsSection;
+  let aboutSection;
+  let contactSection;
+
+  function scrollToElement(target) {
+    target.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
   }
 </script>
 
 <section class="hero">
   <h1>Callum Laing</h1>
   <nav>
-    <a href="">Projects</a>
-    <a href="">About</a>
-    <a href="">Contact</a>
+    <a href="#projects" on:click={() => scrollToElement(projectsSection)}
+      >Projects</a
+    >
+    <a href="#aboutSection" on:click={() => scrollToElement(aboutSection)}
+      >About</a
+    >
+    <a href="#contactContainer" on:click={() => scrollToElement(contactSection)}
+      >Contact</a
+    >
   </nav>
+</section>
+
+<section id="projects" bind:this={projectsSection}>
+  <!-- Your Projects content goes here -->
+</section>
+
+<section id="about" bind:this={aboutSection}>
+  <!-- Your About content goes here -->
+</section>
+
+<section id="contact" bind:this={contactSection}>
+  <!-- Your Contact content goes here -->
 </section>
 
 <style>
@@ -27,7 +44,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100dvh;
+    min-height: 100vh;
     background: linear-gradient(
       to bottom,
       rgb(26, 25, 25) 0%,
@@ -43,7 +60,6 @@
     font-size: 8rem;
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
-    font-style: normal;
     color: black;
     text-shadow:
       -1px -1px 0 rgba(255, 255, 255, 0.2),
@@ -66,9 +82,6 @@
     text-decoration: none;
     color: black;
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1;
     transition: color 0.3s ease;
   }
 
@@ -94,19 +107,17 @@
     left: 0;
   }
 
-  /* iPad Viewing */
   @media (max-width: 1024px) {
     h1 {
-      font-size: 6rem; /* Adjust size for iPads */
+      font-size: 6rem;
     }
 
     nav a {
-      font-size: 1.5rem; /* Adjust size for iPads */
-      margin: 0 15px; /* Adjust margin for iPads */
+      font-size: 1.5rem;
+      margin: 0 15px;
     }
   }
 
-  /* Mobile Viewing */
   @media (max-width: 768px) {
     h1 {
       font-size: 4rem;
