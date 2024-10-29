@@ -108,6 +108,9 @@
   button.formSubmit:hover {
     background-color: rgba(255, 255, 255, 0.2);
   }
+  p {
+    text-align: start;
+  }
 
   @media (min-width: 768px) {
     h2 {
@@ -121,6 +124,10 @@
     input {
       height: 40px;
       margin-top: 5px;
+    }
+
+    p {
+      text-align: start;
     }
   }
 </style>
