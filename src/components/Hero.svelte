@@ -1,41 +1,13 @@
 <script>
-  let projectsSection;
-  let aboutSection;
-  let contactSection;
-
-  function scrollToElement(target) {
-    target.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  }
 </script>
 
 <section class="hero">
   <h1>Callum Laing</h1>
   <nav>
-    <a href="#projects" on:click={() => scrollToElement(projectsSection)}
-      >Projects</a
-    >
-    <a href="#aboutSection" on:click={() => scrollToElement(aboutSection)}
-      >About</a
-    >
-    <a href="#contactContainer" on:click={() => scrollToElement(contactSection)}
-      >Contact</a
-    >
+    <a href="#projects">Projects</a>
+    <a href="#aboutSection">About</a>
+    <a href="#contactContainer">Contact</a>
   </nav>
-</section>
-
-<section id="projects" bind:this={projectsSection}>
-  <!-- Your Projects content goes here -->
-</section>
-
-<section id="about" bind:this={aboutSection}>
-  <!-- Your About content goes here -->
-</section>
-
-<section id="contact" bind:this={contactSection}>
-  <!-- Your Contact content goes here -->
 </section>
 
 <style>
