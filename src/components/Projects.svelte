@@ -144,6 +144,10 @@
     gap: 10px;
   }
 
+  .card-img {
+    overflow: hidden;
+  }
+
   .card-info {
     display: flex;
     flex-direction: column;
@@ -167,11 +171,12 @@
     text-decoration: none;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
+    color: black;
   }
 
   a:hover {
     text-decoration-line: underline;
-    text-decoration-color: rgba(50, 250, 250, 0.7);
+    text-decoration-color: black;
     text-underline-offset: 0.15em;
     text-decoration-thickness: 0.2em;
   }

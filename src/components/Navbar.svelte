@@ -30,13 +30,14 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
-    /* background-color: rgba(196, 196, 196); */
+    background-color: rgba(187, 189, 183);
+    box-shadow: 1px 1px 1px rgba(187, 189, 183);
   }
 
   a {
     text-decoration: none;
     font-size: 1.2em;
-    /* color: rgba(200, 255, 200); */
+    color: rgba(200, 255, 200);
     color: black;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;

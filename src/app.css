@@ -1,3 +1,5 @@
+@use "pico";
+
 body {
   margin: 0;
   width: 100%;
@@ -10,7 +12,7 @@ body {
 }
 
 body::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -25,10 +27,9 @@ body::before {
   /* Send the background behind the content */
 }
 
-
 h1 {
   /* font-family: "Jersey 25", sans-serif; */
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -36,7 +37,6 @@ h1 {
 p {
   font-family: sans-serif;
 }
-
 
 h1,
 h2,
