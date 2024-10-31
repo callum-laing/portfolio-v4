@@ -1,25 +1,198 @@
 <section id="aboutSection" class="about">
-  <h2>About</h2>
-  <p>The about section is under construction... please check back later.</p>
+  <div class="skills-half">
+    <h2>Skills</h2>
+    <div class="skills-flex">
+      <div class="skill-item">
+        <img src="./public/svg/htmlsvg.svg" alt="HTML Icon" />
+        <p>HTML</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/csssvg.svg" alt="CSS Icon" />
+        <p>CSS</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/scsssvg.svg" alt="SCSS Icon" />
+        <p>SCSS</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/tailwindsvg.svg" alt="Tailwind Icon" />
+        <p>Tailwind</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/javascriptsvg.svg" alt="JavaScript Icon" />
+        <p>JavaScript</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/reactsvg.svg" alt="React Icon" />
+        <p>React</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/sveltesvg.svg" alt="Svelte Icon" />
+        <p>Svelte</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/vuesvg.svg" alt="Vue Icon" />
+        <p>Vue</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/gitsvg.svg" alt="Git Icon" />
+        <p>Git</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/githubsvg.svg" alt="GitHub Icon" />
+        <p>GitHub</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/vscodesvg.svg" alt="VSCode Icon" />
+        <p>VSCode</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/cloudflaresvg.svg" alt="Cloudflare Icon" />
+        <p>Cloudflare</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/netlifysvg.svg" alt="Netlify Icon" />
+        <p>Netlify</p>
+      </div>
+      <div class="skill-item">
+        <img src="./public/svg/vitesvg.svg" alt="Vite Icon" />
+        <p>Vite</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-half">
+    <h2>About Me</h2>
+    <p>
+      I'm a front-end developer with a background in administration and account
+      management, where I honed my communication skills working with clients,
+      stakeholders, and team members. Years of playing team sports have shaped
+      my adaptability, resilience, and goal-oriented mindset—qualities I bring
+      to each project.
+    </p>
+    <p>
+      I’m passionate about creating user-friendly, visually appealing
+      applications and thrive on the challenge of translating design into
+      responsive, dynamic interfaces. Whether collaborating or working
+      independently, I’m dedicated to delivering quality results on time while
+      continually expanding my front-end expertise.
+    </p>
+  </div>
 </section>
 
 <style>
   .about {
     min-height: 100dvh;
-    background-color: rgb(26, 25, 25);
-    display: flex;
-    justify-content: center;
+    background: linear-gradient(
+      to bottom,
+      rgb(26, 25, 25) 0%,
+      rgb(181, 125, 125) 50%,
+      rgb(26, 25, 25) 100%
+    );
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    flex-direction: column;
+    padding: 2em;
+    gap: 2em;
+  }
+
+  .skills-half,
+  .about-half {
+    text-align: center;
+    color: black;
+  }
+
+  .skills-flex {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(150px, 1fr)
+    ); /* Responsive grid layout */
+    gap: 30px;
+    margin-top: 1em;
+  }
+
+  .skill-item {
+    border: 2px solid rgba(250, 250, 250, 0.1);
+    background-color: rgba(100, 100, 100, 0.4);
+    box-shadow: 2px 4px 4px black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center; /* Center items horizontally */
+    transition: 0.3s ease;
+  }
+
+  .skill-item:hover {
+    box-shadow: none;
+    border: none;
+  }
+
+  .skill-item img {
+    width: 34px;
+    height: 34px;
   }
 
   h2 {
-    text-align: center;
-    font-size: 5em;
+    margin-bottom: 0.5em;
+    font-size: 5rem;
   }
 
   p {
-    font-size: 3rem;
-    text-align: center;
+    font-size: 1.2rem;
+    margin: 0.5em 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .about {
+      grid-template-columns: 1fr;
+      padding: 1em;
+      padding-top: 10em;
+      padding-bottom: 10em;
+      gap: 10em;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    .skills-flex {
+      grid-template-columns: repeat(2, 1fr); /* 1 column on small screens */
+    }
+
+    .skill-item {
+      padding: 10px;
+      max-width: 90%;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    h2 {
+      font-size: 4rem;
+    }
+
+    .skills-flex {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .skills-flex {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+    }
   }
 </style>

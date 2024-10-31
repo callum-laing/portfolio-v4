@@ -15,8 +15,9 @@
       <div class="card-info">
         <h3>Shopping Cart</h3>
         <p>
-          Using the React framework, I built an intuitive shopping cart platform
-          that delivers seamless online shopping experiences.
+          Built a shopping cart app with React, including a homepage, shop, and
+          cart. This project strengthened my React skills, especially in
+          managing component state.
         </p>
         <span>
           <a
@@ -40,8 +41,9 @@
       <div class="card-info">
         <h3>Memory Card</h3>
         <p>
-          Created a memory card game with the React framework to test memory
-          skills and provide enjoyable entertainment.
+          As a gaming enthusiast, building a game felt like a natural choice.
+          This project was a fun way to put my Svelte skills to the test and
+          create something enjoyable.
         </p>
         <span>
           <a
@@ -65,8 +67,9 @@
       <div class="card-info">
         <h3>Todo List</h3>
         <p>
-          Using the Svelte framework, I developed a straightforward to-do list
-          project for organizing tasks and boosting productivity.
+          Life gets busy, and mentally tracking everything can be overwhelming.
+          I built this to-do list app using the Svelte framework to free up my
+          mental bandwidth for other priorities.
         </p>
         <span>
           <a
@@ -90,8 +93,9 @@
       <div class="card-info">
         <h3>CDL Workout</h3>
         <p>
-          Developed a minimalistic workout project using the Vue framework to
-          allow users to build customizable workout plans.
+          Built using HTML, CSS, and the Vue framework for JavaScript. I built a
+          minimalistic workout app that I use on a daily basis to track my
+          workouts.
         </p>
         <span>
           <a class="alink" href="https://cdl-workout.pages.dev/" target="_blank"
@@ -189,11 +193,11 @@
     color: black;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 3px;
+    transition: 0.5s ease;
   }
 
   a:hover {
-    text-decoration: underline;
-    text-decoration-color: white;
+    background: rgba(200, 200, 200);
   }
 
   @media (min-width: 768px) {

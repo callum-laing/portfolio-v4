@@ -43,12 +43,7 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(
-      to bottom,
-      rgb(26, 25, 25) 0%,
-      rgb(181, 125, 125) 50%,
-      rgb(26, 25, 25) 100%
-    );
+    background-color: rgb(26, 25, 25);
     padding: 2em 1em;
     color: #fff;
     text-align: center;
@@ -77,15 +72,21 @@
   textarea {
     border: 2px solid rgba(255, 255, 255, 0.2);
     padding: 10px;
-    background-color: rgba(0, 0, 20);
-    color: #ccd0e8;
+    background-color: rgba(100, 100, 100);
+    color: black;
     border-radius: 3px;
     font-size: 1em;
     font-family: "Roboto", sans-serif;
   }
 
+  input::placeholder,
+  textarea::placeholder {
+    color: #bbb;
+    opacity: 1;
+  }
+
   textarea {
-    resize: vertical; /* Allows the user to resize vertically */
+    resize: vertical;
   }
 
   input:focus,
