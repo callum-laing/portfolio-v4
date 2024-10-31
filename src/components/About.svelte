@@ -104,10 +104,7 @@
 
   .skills-flex {
     display: grid;
-    grid-template-columns: repeat(
-      auto-fill,
-      minmax(150px, 1fr)
-    ); /* Responsive grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 30px;
     margin-top: 1em;
   }
@@ -121,7 +118,7 @@
     gap: 10px;
     border-radius: 5px;
     padding: 5px;
-    justify-content: center; /* Center items horizontally */
+    justify-content: center;
     transition: 0.3s ease;
   }
 
@@ -163,7 +160,7 @@
     }
 
     .skills-flex {
-      grid-template-columns: repeat(2, 1fr); /* 1 column on small screens */
+      grid-template-columns: repeat(2, 1fr);
     }
 
     .skill-item {
@@ -182,7 +179,7 @@
     }
 
     .skills-flex {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+      grid-template-columns: repeat(2, 1fr);
     }
 
     p {
@@ -192,7 +189,7 @@
 
   @media (min-width: 1025px) {
     .skills-flex {
-      grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 </style>
