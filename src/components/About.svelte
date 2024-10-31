@@ -137,7 +137,7 @@
   .skill-item {
     border: 2px solid rgba(250, 250, 250, 0.1);
     background-color: rgba(100, 100, 100, 0.4);
-    box-shadow: 2px 4px 4px black;
+    box-shadow: 2px 5px 5px black;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -148,8 +148,8 @@
   }
 
   .skill-item:hover {
-    box-shadow: none;
-    border: none;
+    box-shadow: 1px 1px black;
+    cursor: pointer;
   }
 
   .skill-item img {
