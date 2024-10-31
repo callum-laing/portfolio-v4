@@ -1,61 +1,78 @@
+<script>
+  import html from "../assets/svg/htmlsvg.svg";
+  import css from "../assets/svg/csssvg.svg";
+  import scss from "../assets/svg/scsssvg.svg";
+  import tailwind from "../assets/svg/tailwindsvg.svg";
+  import javascript from "../assets/svg/javascriptsvg.svg";
+  import react from "../assets/svg/reactsvg.svg";
+  import svelte from "../assets/svg/sveltesvg.svg";
+  import vue from "../assets/svg/vuesvg.svg";
+  import git from "../assets/svg/gitsvg.svg";
+  import github from "../assets/svg/githubsvg.svg";
+  import vscode from "../assets/svg/vscodesvg.svg";
+  import cloudflare from "../assets/svg/cloudflaresvg.svg";
+  import netlify from "../assets/svg/netlifysvg.svg";
+  import vite from "../assets/svg/vitesvg.svg";
+</script>
+
 <section id="aboutSection" class="about">
   <div class="skills-half">
     <h2>Skills</h2>
     <div class="skills-flex">
       <div class="skill-item">
-        <img src="./public/svg/htmlsvg.svg" alt="HTML Icon" />
+        <img src={html} alt="HTML Icon" />
         <p>HTML</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/csssvg.svg" alt="CSS Icon" />
+        <img src={css} alt="CSS Icon" />
         <p>CSS</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/scsssvg.svg" alt="SCSS Icon" />
+        <img src={scss} alt="SCSS Icon" />
         <p>SCSS</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/tailwindsvg.svg" alt="Tailwind Icon" />
+        <img src={tailwind} alt="Tailwind Icon" />
         <p>Tailwind</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/javascriptsvg.svg" alt="JavaScript Icon" />
+        <img src={javascript} alt="JavaScript Icon" />
         <p>JavaScript</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/reactsvg.svg" alt="React Icon" />
+        <img src={react} alt="React Icon" />
         <p>React</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/sveltesvg.svg" alt="Svelte Icon" />
+        <img src={svelte} alt="Svelte Icon" />
         <p>Svelte</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/vuesvg.svg" alt="Vue Icon" />
+        <img src={vue} alt="Vue Icon" />
         <p>Vue</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/gitsvg.svg" alt="Git Icon" />
+        <img src={git} alt="Git Icon" />
         <p>Git</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/githubsvg.svg" alt="GitHub Icon" />
+        <img src={github} alt="GitHub Icon" />
         <p>GitHub</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/vscodesvg.svg" alt="VSCode Icon" />
+        <img src={vscode} alt="VSCode Icon" />
         <p>VSCode</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/cloudflaresvg.svg" alt="Cloudflare Icon" />
+        <img src={cloudflare} alt="Cloudflare Icon" />
         <p>Cloudflare</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/netlifysvg.svg" alt="Netlify Icon" />
+        <img src={netlify} alt="Netlify Icon" />
         <p>Netlify</p>
       </div>
       <div class="skill-item">
-        <img src="./public/svg/vitesvg.svg" alt="Vite Icon" />
+        <img src={vite} alt="Vite Icon" />
         <p>Vite</p>
       </div>
     </div>
