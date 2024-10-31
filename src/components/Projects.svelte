@@ -237,4 +237,10 @@
       font-size: 5em;
     }
   }
+
+  @media (max-width: 768px) {
+    .alink {
+      font-size: 0.8rem;
+    }
+  }
 </style>
