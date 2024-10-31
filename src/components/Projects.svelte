@@ -93,9 +93,8 @@
       <div class="card-info">
         <h3>CDL Workout</h3>
         <p>
-          Built using HTML, CSS, and the Vue framework for JavaScript. I built a
-          minimalistic workout app that I use on a daily basis to track my
-          workouts.
+          Built using the Vue framework for JavaScript. I built a minimalistic
+          workout app that I use on a daily basis to track my workouts.
         </p>
         <span>
           <a class="alink" href="https://cdl-workout.pages.dev/" target="_blank"
@@ -113,12 +112,6 @@
 </div>
 
 <style>
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-  }
-
   #projects {
     min-height: 100vh;
     padding: 1em;
@@ -128,8 +121,13 @@
 
   h2 {
     font-size: 5rem;
-    line-height: 2;
     margin-bottom: 1em;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(81, 139, 179);
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+    color: rgb(200, 200, 200);
   }
 
   .projectWrapper {
@@ -165,11 +163,17 @@
   h3 {
     font-size: 1.5rem;
     margin: 0.5em 0;
+    font-weight: 500;
   }
 
   p {
     font-size: 1rem;
     margin: 0.5em 0;
+  }
+
+  h3,
+  p {
+    color: rgb(200, 200, 200);
   }
 
   img {
@@ -190,14 +194,20 @@
   a {
     padding: 10px 15px;
     text-decoration: none;
-    color: black;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 3px;
-    transition: 0.5s ease;
+    border: 2px solid rgba(250, 250, 250, 0.1);
+    background-color: rgba(100, 100, 100, 0.4);
+    box-shadow: 2px 5px 5px black;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    color: rgb(81, 139, 179);
+    font-weight: 600;
+    margin: 0 20px;
   }
 
   a:hover {
-    background: rgba(200, 200, 200);
+    box-shadow: 1px 1px black;
+    cursor: pointer;
+    color: rgb(200, 200, 200);
   }
 
   @media (min-width: 768px) {

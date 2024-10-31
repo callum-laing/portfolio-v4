@@ -17,14 +17,6 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    /* background: linear-gradient(
-      to bottom,
-      rgb(26, 25, 25) 0%,
-      rgb(26, 25, 25) 15%,
-      rgb(181, 125, 125) 50%,
-      rgb(181, 125, 125) 50%,
-      rgb(26, 25, 25) 85%
-    ); */
     padding-bottom: 100px;
 
     background: linear-gradient(
@@ -72,8 +64,8 @@
     left: 50%;
     bottom: -5px;
     width: 0;
-    height: 2px;
-    background-color: rgba(255, 255, 255, 0.6);
+    height: 5px;
+    background-color: rgb(200, 200, 200);
     transition:
       width 0.3s ease,
       left 0.3s ease;

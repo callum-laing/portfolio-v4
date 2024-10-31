@@ -79,21 +79,23 @@
   </div>
 
   <div class="about-half">
-    <h2>About Me</h2>
-    <p>
-      I'm a front-end developer with a background in administration and account
-      management, where I honed my communication skills working with clients,
-      stakeholders, and team members. Years of playing team sports have shaped
-      my adaptability, resilience, and goal-oriented mindset—qualities I bring
-      to each project.
-    </p>
-    <p>
-      I’m passionate about creating user-friendly, visually appealing
-      applications and thrive on the challenge of translating design into
-      responsive, dynamic interfaces. Whether collaborating or working
-      independently, I’m dedicated to delivering quality results on time while
-      continually expanding my front-end expertise.
-    </p>
+    <h2>About</h2>
+    <span>
+      <p>
+        I'm a front-end developer with a background in administration and
+        account management, where I honed my communication skills working with
+        clients, stakeholders, and team members. Years of playing team sports
+        have shaped my adaptability, resilience, and goal-oriented
+        mindset—qualities I bring to each project.
+      </p>
+      <p>
+        I’m passionate about creating user-friendly, visually appealing
+        applications and thrive on the challenge of translating design into
+        responsive, dynamic interfaces. Whether collaborating or working
+        independently, I’m dedicated to delivering quality results on time while
+        continually expanding my front-end expertise.
+      </p>
+    </span>
   </div>
 </section>
 
@@ -103,17 +105,12 @@
     /* background: linear-gradient(
       to bottom,
       rgb(26, 25, 25) 0%,
-      rgb(181, 125, 125) 50%,
-      rgb(26, 25, 25) 100%
-    ); */
-    background: linear-gradient(
-      to bottom,
-      rgb(26, 25, 25) 0%,
       rgb(26, 25, 25) 15%,
       rgb(81, 139, 179) 50%,
       rgb(81, 139, 179) 50%,
       rgb(26, 25, 25) 85%
-    );
+    ); */
+    background: rgb(26, 25, 25);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -158,8 +155,13 @@
   }
 
   h2 {
-    margin-bottom: 0.5em;
     font-size: 5rem;
+    margin-bottom: 1em;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(81, 139, 179);
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
   }
 
   p {
@@ -168,6 +170,12 @@
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    text-align: start;
+  }
+
+  h2,
+  p {
+    color: rgb(200, 200, 200);
   }
 
   /* Responsive Styles */
@@ -175,13 +183,23 @@
     .about {
       grid-template-columns: 1fr;
       padding: 1em;
+      gap: 5em;
       padding-top: 10em;
       padding-bottom: 10em;
-      gap: 10em;
+      background: rgb(26, 25, 25);
     }
 
     h2 {
-      font-size: 3rem;
+      font-size: 5rem;
+      text-decoration-line: underline;
+      text-decoration-color: rgb(81, 139, 179);
+      text-decoration-thickness: 5px;
+      text-underline-offset: 5px;
+    }
+
+    h2,
+    p {
+      color: rgb(200, 200, 200);
     }
 
     .skills-flex {
@@ -193,8 +211,15 @@
       max-width: 90%;
     }
 
+    .about-half {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.5;
+    }
+
     p {
       font-size: 1rem;
+      text-align: start;
     }
   }
 

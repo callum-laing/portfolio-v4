@@ -43,7 +43,7 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(26, 25, 25);
+    background: rgb(26, 25, 25);
     padding: 2em 1em;
     color: #fff;
     text-align: center;
@@ -52,6 +52,22 @@
   h2 {
     font-size: 5rem;
     margin-bottom: 1em;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(81, 139, 179);
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+  }
+
+  h2,
+  p,
+  input,
+  textarea {
+    color: rgb(200, 200, 200);
+  }
+
+  .formHeader {
+    padding-bottom: 5px;
   }
 
   form {
@@ -70,10 +86,10 @@
 
   input,
   textarea {
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(250, 250, 250, 0.1);
+    background-color: rgba(100, 100, 100, 0.4);
+    box-shadow: 2px 5px 5px black;
     padding: 10px;
-    background-color: rgba(100, 100, 100);
-    color: black;
     border-radius: 3px;
     font-size: 1em;
     font-family: "Roboto", sans-serif;
@@ -99,15 +115,21 @@
     padding: 10px;
     border: none;
     border-radius: 3px;
-    background-color: rgba(181, 125, 125);
-    color: #fff;
-    font-size: 1em;
+    background-color: rgb(81, 139, 179);
+    border: 2px solid rgba(250, 250, 250, 0.1);
+    box-shadow: 2px 5px 5px black;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2em;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: 0.3s ease;
   }
 
   button.formSubmit:hover {
     background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 1px black;
+    cursor: pointer;
+    color: rgb(200, 200, 200);
   }
   p {
     text-align: start;
