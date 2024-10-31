@@ -17,15 +17,24 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(
+    /* background: linear-gradient(
       to bottom,
       rgb(26, 25, 25) 0%,
       rgb(26, 25, 25) 15%,
       rgb(181, 125, 125) 50%,
       rgb(181, 125, 125) 50%,
       rgb(26, 25, 25) 85%
-    );
+    ); */
     padding-bottom: 100px;
+
+    background: linear-gradient(
+      to bottom,
+      rgb(26, 25, 25) 0%,
+      rgb(26, 25, 25) 15%,
+      rgb(81, 139, 179) 50%,
+      rgb(81, 139, 179) 50%,
+      rgb(26, 25, 25) 85%
+    );
   }
 
   h1 {

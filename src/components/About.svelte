@@ -100,11 +100,19 @@
 <style>
   .about {
     min-height: 100dvh;
-    background: linear-gradient(
+    /* background: linear-gradient(
       to bottom,
       rgb(26, 25, 25) 0%,
       rgb(181, 125, 125) 50%,
       rgb(26, 25, 25) 100%
+    ); */
+    background: linear-gradient(
+      to bottom,
+      rgb(26, 25, 25) 0%,
+      rgb(26, 25, 25) 15%,
+      rgb(81, 139, 179) 50%,
+      rgb(81, 139, 179) 50%,
+      rgb(26, 25, 25) 85%
     );
     display: grid;
     grid-template-columns: 1fr 1fr;
