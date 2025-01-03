@@ -5,7 +5,6 @@
   import react from "../assets/svg/react.svg";
   import svelte from "../assets/svg/svelte.svg";
   import vite from "../assets/svg/vite.svg";
-  import responsive from "../assets/svg/responsive.svg";
   import vscode from "../assets/svg/vscode.svg";
   import cloudflare from "../assets/svg/cloudflare.svg";
   import nextjs from "../assets/svg/next.svg";
@@ -84,10 +83,6 @@
   <div class="skillIcons">
     <img src={vscode} alt="vscode icon" width="50" />
     <span>VS Code</span>
-  </div>
-  <div class="skillIcons">
-    <img src={responsive} alt="responsive icon" width="50" />
-    <span>Responsive Design</span>
   </div>
 </div>
 

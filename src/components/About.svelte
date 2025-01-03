@@ -11,8 +11,12 @@
   import github from "../assets/svg/githubsvg.svg";
   import vscode from "../assets/svg/vscodesvg.svg";
   import cloudflare from "../assets/svg/cloudflaresvg.svg";
-  import netlify from "../assets/svg/netlifysvg.svg";
   import vite from "../assets/svg/vitesvg.svg";
+  import nuxt from "../assets/svg/nuxt.svg";
+  import powerbi from "../assets/svg/powerbisvg.svg";
+  import sql from "../assets/svg/sql.svg";
+  import python from "../assets/svg/python.svg";
+  import go from "../assets/svg/go.svg";
 </script>
 
 <section id="aboutSection" class="about">
@@ -27,29 +31,41 @@
         <img src={css} alt="CSS Icon" />
         <p>CSS</p>
       </div>
-      <div class="skill-item">
+      <!-- <div class="skill-item">
         <img src={scss} alt="SCSS Icon" />
         <p>SCSS</p>
-      </div>
-      <div class="skill-item">
+      </div> -->
+      <!-- <div class="skill-item">
         <img src={tailwind} alt="Tailwind Icon" />
         <p>Tailwind</p>
-      </div>
+      </div> -->
       <div class="skill-item">
         <img src={javascript} alt="JavaScript Icon" />
         <p>JavaScript</p>
       </div>
       <div class="skill-item">
-        <img src={react} alt="React Icon" />
-        <p>React</p>
+        <img src={vue} alt="Vue Icon" />
+        <p>Vue</p>
       </div>
       <div class="skill-item">
+        <img src={nuxt} alt="Nuxt Icon" />
+        <p>Nuxt</p>
+      </div>
+      <!-- <div class="skill-item">
         <img src={svelte} alt="Svelte Icon" />
         <p>Svelte</p>
       </div>
       <div class="skill-item">
-        <img src={vue} alt="Vue Icon" />
-        <p>Vue</p>
+        <img src={react} alt="React Icon" />
+        <p>React</p>
+      </div> -->
+      <div class="skill-item">
+        <img src={python} alt="Python Icon" />
+        <p>Python</p>
+      </div>
+      <div class="skill-item">
+        <img src={go} alt="Go Icon" />
+        <p>Go</p>
       </div>
       <div class="skill-item">
         <img src={git} alt="Git Icon" />
@@ -68,12 +84,16 @@
         <p>Cloudflare</p>
       </div>
       <div class="skill-item">
-        <img src={netlify} alt="Netlify Icon" />
-        <p>Netlify</p>
-      </div>
-      <div class="skill-item">
         <img src={vite} alt="Vite Icon" />
         <p>Vite</p>
+      </div>
+      <div class="skill-item">
+        <img src={sql} alt="SQL Icon" />
+        <p>SQL</p>
+      </div>
+      <div class="skill-item">
+        <img src={powerbi} alt="PowerBI Icon" />
+        <p>PowerBI</p>
       </div>
     </div>
   </div>
@@ -82,18 +102,26 @@
     <h2>About</h2>
     <span>
       <p>
-        I'm a front-end developer with a background in administration and
-        account management, where I honed my communication skills working with
-        clients, stakeholders, and team members. Years of playing team sports
-        have shaped my adaptability, resilience, and goal-oriented
-        mindset—qualities I bring to each project.
+        Hi there! I’m a front-end web developer with a passion for turning ideas
+        into reality. My journey into web development started with a simple
+        curiosity about how the web works, which soon grew into a love for
+        building sleek, responsive designs that are both functional and visually
+        engaging.
       </p>
+      <br />
       <p>
-        I’m passionate about creating user-friendly, visually appealing
-        applications and thrive on the challenge of translating design into
-        responsive, dynamic interfaces. Whether collaborating or working
-        independently, I’m dedicated to delivering quality results on time while
-        continually expanding my front-end expertise.
+        I enjoy the challenge of problem-solving and the satisfaction of seeing
+        a project come together. Whether it’s refining a user interface or
+        making sure a site works seamlessly across devices, I take pride in
+        creating clean, efficient code and delivering experiences that are
+        intuitive and accessible.
+      </p>
+      <br />
+      <p>
+        When I’m not coding, I like staying active by hitting the gym, hiking,
+        or playing sports. I’m also a big fan of unwinding with a good movie or
+        two. These interests keep me balanced and energized, and I find they
+        often inspire fresh ideas in my work.
       </p>
     </span>
   </div>
