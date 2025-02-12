@@ -34,11 +34,11 @@
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
     color: black;
-    text-shadow:
+    /* text-shadow:
       -1px -1px 0 rgba(255, 255, 255, 0.2),
       1px -1px 0 rgba(255, 255, 255, 0.2),
       -1px 1px 0 rgba(255, 255, 255, 0.2),
-      1px 1px 0 rgba(255, 255, 255, 0.2);
+      1px 1px 0 rgba(255, 255, 255, 0.2); */
     line-height: 1.2;
   }
 

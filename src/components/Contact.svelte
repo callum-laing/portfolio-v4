@@ -1,40 +1,68 @@
 <script>
+  import github from "../assets/svg/github2.svg";
+  import email from "../assets/svg/email2.svg";
+  import linkedin from "../assets/svg/linked.svg";
 </script>
 
-<div id="contactContainer">
-  <h2>Contact</h2>
-  <form action="https://formspree.io/f/xknykdjb" method="POST">
-    <label for="name">
-      <p class="formHeader">Your Name:</p>
-      <input
-        type="text"
-        name="name"
-        placeholder="What should I call you?"
-        required
-      />
-    </label>
-    <label for="email">
-      <p class="formHeader">Your Email:</p>
-      <input
-        type="email"
-        name="email"
-        placeholder="What is your email?"
-        required
-      />
-    </label>
-    <label for="message">
-      <p class="formHeader">Message:</p>
-      <textarea
-        rows="8"
-        name="message"
-        class="body"
-        placeholder="Please leave your message here..."
-        required
-      ></textarea>
-    </label>
-    <button class="formSubmit" type="submit">Submit</button>
-  </form>
-</div>
+<section class="contact">
+  <div id="contactContainer">
+    <h2>Contact</h2>
+    <div class="contactLinks">
+      <a href="mailto:youremail@example.com" class="emailLink">
+        <img src={email} alt="Email" class="favicon" />
+        Email Me
+      </a>
+      <a
+        href="https://github.com/yourusername"
+        class="githubLink"
+        target="_blank"
+      >
+        <img src={github} alt="GitHub" class="favicon" />
+        GitHub
+      </a>
+      <a
+        href="https://www.linkedin.com/in/yourprofile"
+        class="linkedinLink"
+        target="_blank"
+      >
+        <img src={linkedin} alt="LinkedIn" class="favicon" />
+        LinkedIn
+      </a>
+    </div>
+
+    <form action="https://formspree.io/f/xknykdjb" method="POST">
+      <label for="name">
+        <p class="formHeader">Your Name:</p>
+        <input
+          type="text"
+          name="name"
+          placeholder="What should I call you?"
+          required
+        />
+      </label>
+      <label for="email">
+        <p class="formHeader">Your Email:</p>
+        <input
+          type="email"
+          name="email"
+          placeholder="What is your email?"
+          required
+        />
+      </label>
+      <label for="message">
+        <p class="formHeader">Message:</p>
+        <textarea
+          rows="8"
+          name="message"
+          class="body"
+          placeholder="Please leave your message here..."
+          required
+        ></textarea>
+      </label>
+      <button class="formSubmit" type="submit">Submit</button>
+    </form>
+  </div>
+</section>
 
 <style>
   #contactContainer {
@@ -51,12 +79,32 @@
 
   h2 {
     font-size: 5rem;
-    margin-bottom: 1em;
+    margin-bottom: 50px;
     font-weight: 600;
     text-decoration-line: underline;
     text-decoration-color: rgb(81, 139, 179);
     text-decoration-thickness: 5px;
     text-underline-offset: 5px;
+  }
+
+  .contactLinks {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+  .contactLinks > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+
+  .contactLinks > a:hover {
+    color: rgb(81, 139, 179);
   }
 
   h2,
@@ -135,6 +183,9 @@
     text-align: start;
   }
 
+  img {
+    width: 25px;
+  }
   @media (min-width: 768px) {
     h2 {
       font-size: 4.5rem;

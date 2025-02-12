@@ -10,13 +10,11 @@
   import git from "../assets/svg/gitsvg.svg";
   import github from "../assets/svg/githubsvg.svg";
   import vscode from "../assets/svg/vscodesvg.svg";
-  import cloudflare from "../assets/svg/cloudflaresvg.svg";
   import vite from "../assets/svg/vitesvg.svg";
   import nuxt from "../assets/svg/nuxt.svg";
   import powerbi from "../assets/svg/powerbisvg.svg";
   import sql from "../assets/svg/sql.svg";
   import python from "../assets/svg/python.svg";
-  import go from "../assets/svg/go.svg";
 </script>
 
 <section id="aboutSection" class="about">
@@ -35,10 +33,10 @@
         <img src={scss} alt="SCSS Icon" />
         <p>SCSS</p>
       </div> -->
-      <!-- <div class="skill-item">
+      <div class="skill-item">
         <img src={tailwind} alt="Tailwind Icon" />
         <p>Tailwind</p>
-      </div> -->
+      </div>
       <div class="skill-item">
         <img src={javascript} alt="JavaScript Icon" />
         <p>JavaScript</p>
@@ -51,21 +49,17 @@
         <img src={nuxt} alt="Nuxt Icon" />
         <p>Nuxt</p>
       </div>
-      <!-- <div class="skill-item">
+      <div class="skill-item">
         <img src={svelte} alt="Svelte Icon" />
         <p>Svelte</p>
       </div>
       <div class="skill-item">
         <img src={react} alt="React Icon" />
         <p>React</p>
-      </div> -->
+      </div>
       <div class="skill-item">
         <img src={python} alt="Python Icon" />
         <p>Python</p>
-      </div>
-      <div class="skill-item">
-        <img src={go} alt="Go Icon" />
-        <p>Go</p>
       </div>
       <div class="skill-item">
         <img src={git} alt="Git Icon" />
@@ -78,10 +72,6 @@
       <div class="skill-item">
         <img src={vscode} alt="VSCode Icon" />
         <p>VSCode</p>
-      </div>
-      <div class="skill-item">
-        <img src={cloudflare} alt="Cloudflare Icon" />
-        <p>Cloudflare</p>
       </div>
       <div class="skill-item">
         <img src={vite} alt="Vite Icon" />
@@ -130,18 +120,10 @@
 <style>
   .about {
     min-height: 100dvh;
-    /* background: linear-gradient(
-      to bottom,
-      rgb(26, 25, 25) 0%,
-      rgb(26, 25, 25) 15%,
-      rgb(81, 139, 179) 50%,
-      rgb(81, 139, 179) 50%,
-      rgb(26, 25, 25) 85%
-    ); */
     background: rgb(26, 25, 25);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    align-items: flex-start;
     padding: 2em;
     gap: 2em;
   }

@@ -10,6 +10,29 @@
   <div class="projectWrapper">
     <div class="projCard">
       <div class="card-img">
+        <img src={cdlworkout} alt="CDL Workout Project" />
+      </div>
+      <div class="card-info">
+        <h3>CDL Workout</h3>
+        <p>
+          Built using the Vue framework for JavaScript. I built a minimalistic
+          workout app that I use on a daily basis to track my workouts.
+        </p>
+        <span>
+          <a class="alink" href="https://cdl-workout.pages.dev/" target="_blank"
+            >Live Demo</a
+          >
+          <a
+            class="alink"
+            href="https://github.com/callum-laing/cdl-workout"
+            target="_blank">Github Repo</a
+          >
+        </span>
+      </div>
+    </div>
+
+    <div class="projCard">
+      <div class="card-img">
         <img src={shop} alt="Shopping Cart Project" />
       </div>
       <div class="card-info">
@@ -80,29 +103,6 @@
           <a
             class="alink"
             href="https://github.com/callum-laing/svelte-todo-app"
-            target="_blank">Github Repo</a
-          >
-        </span>
-      </div>
-    </div>
-
-    <div class="projCard">
-      <div class="card-img">
-        <img src={cdlworkout} alt="CDL Workout Project" />
-      </div>
-      <div class="card-info">
-        <h3>CDL Workout</h3>
-        <p>
-          Built using the Vue framework for JavaScript. I built a minimalistic
-          workout app that I use on a daily basis to track my workouts.
-        </p>
-        <span>
-          <a class="alink" href="https://cdl-workout.pages.dev/" target="_blank"
-            >Live Demo</a
-          >
-          <a
-            class="alink"
-            href="https://github.com/callum-laing/cdl-workout"
             target="_blank">Github Repo</a
           >
         </span>
