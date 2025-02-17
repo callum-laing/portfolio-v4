@@ -18,11 +18,14 @@
 html {
   color-scheme: dark light;
   hanging-punctuation: first last;
+  font-family: helvetica;
 }
 
 /* min body height */
 body {
   min-height: 100svh;
+  /* background-image: linear-gradient(to right top, #c0c5c6, #b4c3c8, #a9c0cc, #a0bcd0, #9bb7d5, #a1b7d6, #a8b7d7, #aeb7d8, #babdd6, #c3c4d5, #cccbd4, #d3d3d3); */
+  background-image: linear-gradient(to right top, #000000, #151415, #222222, #302f31, #3e3e40, #3e3e40, #3e3e40, #3e3e40, #302f31, #222222, #151415, #000000);
 }
 
 /* responsive images/videos */
@@ -54,7 +57,7 @@ li {
 
 h2,
 h3 {
-  font-family: montserrat;
+  /* font-family: montserrat; */
 }
 
 p,
@@ -63,7 +66,7 @@ input,
 textarea,
 label,
 button {
-  font-family: "Open Sans";
+  /* font-family: "Open Sans"; */
 }
 
 html {
