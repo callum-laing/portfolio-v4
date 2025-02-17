@@ -40,6 +40,7 @@
 		position: sticky;
 		width: 100%;
 		display: flex;
+		align-items: center;
 		justify-content: space-between;
 		padding: 1em 15em;
 		font-size: 1.2em;
