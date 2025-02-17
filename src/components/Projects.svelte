@@ -148,11 +148,6 @@
 		margin: 0.5em 0;
 	}
 
-	h3,
-	p {
-		color: rgb(200, 200, 200);
-	}
-
 	img {
 		width: 100%;
 		height: 100%;
@@ -173,18 +168,17 @@
 		text-decoration: none;
 		border: 2px solid rgba(250, 250, 250, 0.1);
 		background-color: rgba(100, 100, 100, 0.4);
-		box-shadow: 2px 5px 5px black;
+		box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
 		border-radius: 5px;
 		transition: 0.3s ease;
-		color: rgb(81, 139, 179);
 		font-weight: 600;
 		margin: 0 20px;
+		color: rgba(199, 199, 199);
 	}
 
 	a:hover {
 		box-shadow: 1px 1px black;
 		cursor: pointer;
-		color: rgb(200, 200, 200);
 	}
 
 	@media (min-width: 768px) {

@@ -33,10 +33,10 @@
         <img src={scss} alt="SCSS Icon" />
         <p>SCSS</p>
       </div> -->
-			<div class="skill-item">
+			<!-- <div class="skill-item">
 				<img src={tailwind} alt="Tailwind Icon" />
 				<p>Tailwind</p>
-			</div>
+			</div> -->
 			<div class="skill-item">
 				<img src={javascript} alt="JavaScript Icon" />
 				<p>JavaScript</p>
@@ -45,10 +45,10 @@
 				<img src={vue} alt="Vue Icon" />
 				<p>Vue</p>
 			</div>
-			<div class="skill-item">
+			<!-- <div class="skill-item">
 				<img src={nuxt} alt="Nuxt Icon" />
 				<p>Nuxt</p>
-			</div>
+			</div> -->
 			<div class="skill-item">
 				<img src={svelte} alt="Svelte Icon" />
 				<p>Svelte</p>
@@ -57,10 +57,10 @@
 				<img src={react} alt="React Icon" />
 				<p>React</p>
 			</div>
-			<div class="skill-item">
+			<!-- <div class="skill-item">
 				<img src={python} alt="Python Icon" />
 				<p>Python</p>
-			</div>
+			</div> -->
 			<div class="skill-item">
 				<img src={git} alt="Git Icon" />
 				<p>Git</p>
@@ -128,7 +128,7 @@
 	.skills-half,
 	.about-half {
 		text-align: center;
-		color: black;
+		color: rgba(199, 199, 199);
 	}
 
 	.skills-flex {
@@ -141,7 +141,7 @@
 	.skill-item {
 		border: 2px solid rgba(250, 250, 250, 0.1);
 		background-color: rgba(100, 100, 100, 0.4);
-		box-shadow: 2px 5px 5px black;
+		box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
 		display: flex;
 		align-items: center;
 		gap: 10px;
@@ -178,11 +178,6 @@
 		margin-left: auto;
 		margin-right: auto;
 		text-align: start;
-	}
-
-	h2,
-	p {
-		color: rgb(200, 200, 200);
 	}
 
 	/* Responsive Styles */

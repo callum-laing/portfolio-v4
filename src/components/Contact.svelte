@@ -7,20 +7,6 @@
 <section class="contact">
 	<div id="contactContainer">
 		<h2>Contact</h2>
-		<div class="contactLinks">
-			<a href="mailto:youremail@example.com" class="emailLink">
-				<img src={email} alt="Email" class="favicon" />
-				Email Me
-			</a>
-			<a href="https://github.com/yourusername" class="githubLink" target="_blank">
-				<img src={github} alt="GitHub" class="favicon" />
-				GitHub
-			</a>
-			<a href="https://www.linkedin.com/in/yourprofile" class="linkedinLink" target="_blank">
-				<img src={linkedin} alt="LinkedIn" class="favicon" />
-				LinkedIn
-			</a>
-		</div>
 
 		<form action="https://formspree.io/f/xknykdjb" method="POST">
 			<label for="name">
@@ -55,7 +41,6 @@
 		min-height: 100vh;
 		/* background: rgb(26, 25, 25); */
 		padding: 2em 1em;
-		color: #fff;
 		text-align: center;
 	}
 
@@ -80,20 +65,8 @@
 		justify-content: center;
 		gap: 5px;
 		text-decoration: none;
-		color: rgb(200, 200, 200);
 		font-weight: 600;
 		transition: 0.3s ease;
-	}
-
-	.contactLinks > a:hover {
-		color: rgb(81, 139, 179);
-	}
-
-	h2,
-	p,
-	input,
-	textarea {
-		color: rgb(200, 200, 200);
 	}
 
 	.formHeader {
@@ -127,7 +100,6 @@
 
 	input::placeholder,
 	textarea::placeholder {
-		color: #bbb;
 		opacity: 1;
 	}
 
@@ -148,7 +120,6 @@
 		background-color: rgb(81, 139, 179);
 		border: 2px solid rgba(250, 250, 250, 0.1);
 		box-shadow: 2px 5px 5px black;
-		color: black;
 		font-weight: 600;
 		font-size: 1.2em;
 		cursor: pointer;
@@ -159,7 +130,6 @@
 		background-color: rgba(255, 255, 255, 0.2);
 		box-shadow: 1px 1px black;
 		cursor: pointer;
-		color: rgb(200, 200, 200);
 	}
 	p {
 		text-align: start;
