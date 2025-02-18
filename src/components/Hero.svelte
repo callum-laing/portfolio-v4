@@ -20,7 +20,6 @@
 		width: 500px;
 		height: auto;
 		border-radius: 10px;
-		margin-left: 20px;
 		object-fit: cover;
 		justify-self: center;
 		box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
@@ -31,5 +30,11 @@
 		padding-top: 15px;
 		font-size: 1.5rem;
 		color: rgba(220, 220, 220);
+	}
+
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1rem;
+		}
 	}
 </style>

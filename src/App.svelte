@@ -69,6 +69,21 @@
 		color: rgb(81, 139, 179);
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 767px) {
+		.nav-container {
+			padding: 10px 5px;
+		}
+		nav a {
+			font-size: 0.8em;
+		}
+		.nav-container p {
+			font-size: 1em;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1024px) {
+		.nav-container {
+			padding: 15px 5px;
+		}
 	}
 </style>
