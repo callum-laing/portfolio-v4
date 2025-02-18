@@ -37,4 +37,10 @@
 			font-size: 1rem;
 		}
 	}
+
+	@media (min-width: 375px) and (max-width: 413px) {
+		h2 {
+			font-size: 0.8rem;
+		}
+	}
 </style>

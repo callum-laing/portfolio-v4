@@ -86,4 +86,17 @@
 			padding: 15px 5px;
 		}
 	}
+
+	@media (min-width: 376px) and (max-width: 430px) {
+		.nav-container {
+			padding: 10px 10px;
+			font-size: 1em;
+		}
+		.nav-container p {
+			font-size: 1.1em;
+		}
+		nav a {
+			font-size: 0.9em;
+		}
+	}
 </style>
