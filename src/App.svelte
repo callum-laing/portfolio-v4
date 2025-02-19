@@ -19,9 +19,9 @@
 <main>
 	<Hero />
 	<hr />
-	<Projects />
-	<hr />
 	<About />
+	<hr />
+	<Projects />
 	<hr />
 	<Contact />
 </main>
@@ -45,9 +45,7 @@
 		padding: 1em 15em;
 		font-size: 1.2em;
 		background: rgba(21, 21, 21);
-		box-shadow:
-			0 20px 25px -5px rgb(0 0 0 / 0.1),
-			0 8px 10px -6px rgb(0 0 0 / 0.1);
+		box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 	}
 
 	.nav-container p {

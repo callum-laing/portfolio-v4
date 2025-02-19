@@ -29,25 +29,6 @@
 
 		<div class="projCard">
 			<div class="card-img">
-				<img src={shop} alt="Shopping Cart Project" />
-			</div>
-			<div class="card-info">
-				<h3>Shopping Cart</h3>
-				<p>
-					Built a shopping cart app with React, including a homepage, shop, and cart. This project
-					strengthened my React skills, especially in managing component state.
-				</p>
-				<span>
-					<a class="alink" href="https://shopping-site.pages.dev/" target="_blank">Live Demo</a>
-					<a class="alink" href="https://github.com/callum-laing/shopping-site" target="_blank"
-						>Github Repo</a
-					>
-				</span>
-			</div>
-		</div>
-
-		<div class="projCard">
-			<div class="card-img">
 				<img src={memoryCard} alt="Memory Card Game" />
 			</div>
 			<div class="card-info">
