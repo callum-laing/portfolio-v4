@@ -6,10 +6,11 @@
 	import svelte from '../assets/svg/sveltesvg.svg';
 	import vue from '../assets/svg/vuesvg.svg';
 	import git from '../assets/svg/gitsvg.svg';
-	import github from '../assets/svg/githubsvg.svg';
+	import github from '../assets/svg/github.svg';
 	import vscode from '../assets/svg/vscodesvg.svg';
 	import vite from '../assets/svg/vitesvg.svg';
 	import sql from '../assets/svg/sql.svg';
+	import cloudflare from '../assets/svg/cloudflare.svg';
 </script>
 
 <section id="aboutSection" class="about">
@@ -48,6 +49,14 @@
 			<p>Svelte</p>
 		</div>
 		<div class="skill-item">
+			<img src={sql} alt="SQL Icon" />
+			<p>SQL</p>
+		</div>
+		<div class="skill-item">
+			<img src={vite} alt="Vite Icon" />
+			<p>Vite</p>
+		</div>
+		<div class="skill-item">
 			<img src={git} alt="Git Icon" />
 			<p>Git</p>
 		</div>
@@ -60,12 +69,8 @@
 			<p>VSCode</p>
 		</div>
 		<div class="skill-item">
-			<img src={sql} alt="SQL Icon" />
-			<p>SQL</p>
-		</div>
-		<div class="skill-item">
-			<img src={vite} alt="Vite Icon" />
-			<p>Vite</p>
+			<img src={cloudflare} alt="Vite Icon" />
+			<p>Cloudflare</p>
 		</div>
 	</div>
 </section>
@@ -91,10 +96,6 @@
 		line-height: 1.4;
 	}
 
-	.skills-note {
-		font-size: 0.9em;
-		font-style: italic;
-	}
 	/* About icons */
 	.skill-container {
 		display: grid;
@@ -108,10 +109,16 @@
 		transition: 0.3s ease;
 		gap: 5px;
 		font-weight: 600;
+		line-height: 34px;
 	}
 
 	.skill-item img {
 		width: 34px;
 		height: 34px;
+	}
+
+	.skill-item p {
+		margin: 0;
+		line-height: 34px;
 	}
 </style>

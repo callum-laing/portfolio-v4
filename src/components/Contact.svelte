@@ -1,9 +1,3 @@
-<script>
-	import github from '../assets/svg/github2.svg';
-	import email from '../assets/svg/email2.svg';
-	import linkedin from '../assets/svg/linked.svg';
-</script>
-
 <section class="contact">
 	<div id="contactContainer">
 		<h2>Contact</h2>
@@ -25,7 +19,7 @@
 					class="body"
 					placeholder="Please leave your message here..."
 					required
-				></textarea>
+				/>
 			</label>
 			<button class="formSubmit" type="submit">Submit</button>
 		</form>
