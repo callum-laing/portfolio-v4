@@ -23,7 +23,6 @@
 		object-fit: cover;
 		justify-self: center;
 		box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
-		opacity: 75%;
 	}
 
 	h2 {

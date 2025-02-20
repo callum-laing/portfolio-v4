@@ -78,12 +78,14 @@
 <style>
 	.about {
 		margin: 1em 0;
+		min-height: calc(100vh - 6rem);
 	}
 
 	h2 {
 		font-size: 3rem;
 		margin-bottom: 0.5em;
 		font-weight: 600;
+		color: white;
 	}
 
 	h3 {

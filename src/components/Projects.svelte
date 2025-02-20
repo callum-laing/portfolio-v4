@@ -1,69 +1,54 @@
 <script>
-	import todoList from '../assets/todoList.jpg';
-	import shop from '../assets/shop.jpg';
-	import memoryCard from '../assets/memoryCard.jpg';
 	import cdlworkout from '../assets/cdlworkout.jpg';
+	import todoList from '../assets/todoList.jpg';
 </script>
 
-<div id="projects" class="projectSection">
+<div id="projects" class="project-section">
 	<h2>Projects</h2>
-	<div class="projectWrapper">
-		<div class="projCard">
-			<div class="card-img">
-				<img src={cdlworkout} alt="CDL Workout Project" />
-			</div>
-			<div class="card-info">
-				<h3>CDL Workout</h3>
-				<p>
-					Built using the Vue framework for JavaScript. I built a minimalistic workout app that I
-					use on a daily basis to track my workouts.
-				</p>
-				<span>
+	<div class="proj-card">
+		<div class="card-img">
+			<img src={cdlworkout} alt="CDL Workout Project" />
+		</div>
+		<div class="card-info">
+			<h3>CDL Workout</h3>
+			<p>
+				I built a workout app using Vue.js that allows users to create workout days, add exercises
+				to each day, and specify reps for each exercise. It leverages Vue's reactive state
+				management to handle dynamic data updates and uses localStorage to retain workout
+				information.
+			</p>
+			<div class="proj-card-footer">
+				<p>Built using the Vue.js Framework</p>
+				<div class="proj-links">
 					<a class="alink" href="https://cdl-workout.pages.dev/" target="_blank">Live Demo</a>
 					<a class="alink" href="https://github.com/callum-laing/cdl-workout" target="_blank"
 						>Github Repo</a
 					>
-				</span>
+				</div>
 			</div>
 		</div>
-
-		<div class="projCard">
-			<div class="card-img">
-				<img src={memoryCard} alt="Memory Card Game" />
-			</div>
-			<div class="card-info">
-				<h3>Memory Card</h3>
-				<p>
-					As a gaming enthusiast, building a game felt like a natural choice. This project was a fun
-					way to put my Svelte skills to the test and create something enjoyable.
-				</p>
-				<span>
-					<a class="alink" href="https://sv-memory-card.pages.dev/" target="_blank">Live Demo</a>
-					<a class="alink" href="https://github.com/callum-laing/sv-memory-card" target="_blank"
-						>Github Repo</a
-					>
-				</span>
-			</div>
+	</div>
+	<div class="proj-card">
+		<div class="card-img">
+			<img src={todoList} alt="Todo List" />
 		</div>
-
-		<div class="projCard">
-			<div class="card-img">
-				<img src={todoList} alt="To-Do List Project" />
-			</div>
-			<div class="card-info">
-				<h3>Todo List</h3>
-				<p>
-					Life gets busy, and mentally tracking everything can be overwhelming. I built this to-do
-					list app using the Svelte framework to free up my mental bandwidth for other priorities.
-				</p>
-				<span>
+		<div class="card-info">
+			<h3>Todo List</h3>
+			<p>
+				I built a to-do list app using Svelte.js that lets users add, edit, delete, and mark tasks
+				as complete. It uses Svelte’s state management for smooth updates and stores tasks in
+				localStorage so they stay saved even after closing the app.
+			</p>
+			<div class="proj-card-footer">
+				<p>Built using the Svelte.js Framework</p>
+				<div class="proj-links">
 					<a class="alink" href="https://svelte-todo-app-73m.pages.dev/" target="_blank"
 						>Live Demo</a
 					>
 					<a class="alink" href="https://github.com/callum-laing/svelte-todo-app" target="_blank"
 						>Github Repo</a
 					>
-				</span>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -71,128 +56,76 @@
 
 <style>
 	#projects {
-		min-height: 100vh;
-		padding: 1em;
-		/* background-color: rgb(26, 25, 25); */
-		text-align: center;
+		display: flex;
+		flex-direction: column;
+		gap: 3em;
+		margin: 1em 0;
+		min-height: calc(100vh - 6rem);
 	}
 
 	h2 {
-		font-size: 5rem;
-		margin-bottom: 1em;
+		font-size: 3rem;
+	}
+
+	h2,
+	h3 {
+		color: white;
 		font-weight: 600;
-		text-decoration-line: underline;
-		text-decoration-color: rgb(81, 139, 179);
-		text-decoration-thickness: 5px;
-		text-underline-offset: 5px;
-		/* color: rgb(200, 200, 200); */
-	}
-
-	.projectWrapper {
-		display: flex;
-		flex-direction: column;
-		gap: 100px;
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.projCard {
-		display: flex;
-		flex-direction: column;
-		padding: 15px;
-		border-radius: 3px;
-		background-color: rgba(250, 250, 250, 0.1);
-		box-shadow: 1px 1px 4px rgba(50, 50, 50);
-	}
-
-	.card-img {
-		overflow: hidden;
-		position: relative;
-		height: 200px;
-	}
-
-	.card-info {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		padding: 10px;
 	}
 
 	h3 {
-		font-size: 1.5rem;
-		margin: 0.5em 0;
-		font-weight: 500;
+		margin: 0 auto;
+		padding-top: 10px;
+		font-size: 1.5em;
 	}
 
-	p {
-		font-size: 1rem;
-		margin: 0.5em 0;
+	.proj-card {
+		display: grid;
+		grid-template-columns: 0.8fr 1fr;
+		grid-gap: 25px;
+		background-color: rgba(20, 20, 20);
+		border-radius: 10px;
 	}
 
 	img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		filter: brightness(0.8);
-		border-radius: 3px;
-	}
-
-	span {
-		margin-top: 1em;
-		display: flex;
-		justify-content: center;
-		gap: 10px;
-	}
-
-	a {
-		padding: 10px 15px;
-		text-decoration: none;
-		border: 2px solid rgba(250, 250, 250, 0.1);
-		background-color: rgba(100, 100, 100, 0.4);
+		border-radius: 10px;
 		box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
-		border-radius: 5px;
-		transition: 0.3s ease;
-		font-weight: 600;
-		margin: 0 20px;
+		opacity: 75%;
+	}
+	.card-info {
+		display: grid;
+		grid-template-rows: 50px 1fr 50px;
+	}
+
+	.card-info p {
+		line-height: 1.4;
+		max-width: calc(100% - 2em);
+	}
+
+	.proj-card-footer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 1em;
+	}
+
+	.proj-card-footer p {
+		margin: 0 auto;
+		font-style: italic;
+	}
+
+	.proj-links a {
+		text-decoration: none;
 		color: rgba(199, 199, 199);
+		transition: 0.2s ease;
+		font-size: 1.1em;
+		padding: 5px 10px;
+		border: 1px solid rgb(81, 139, 179);
+		border-radius: 10px;
 	}
 
-	a:hover {
-		box-shadow: 1px 1px black;
-		cursor: pointer;
-	}
-
-	@media (min-width: 768px) {
-		.projectWrapper {
-			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			gap: 50px;
-			width: 80%;
-		}
-
-		.projCard {
-			flex-direction: row;
-			padding: 20px;
-		}
-
-		.card-img {
-			width: 40%;
-			height: auto;
-			margin-right: 15px;
-		}
-
-		.card-info {
-			width: 60%;
-		}
-
-		h2 {
-			font-size: 5em;
-		}
-	}
-
-	@media (max-width: 768px) {
-		.alink {
-			font-size: 0.8rem;
-		}
+	.proj-links a:hover {
+		color: rgb(81, 139, 179);
+		border: 1px solid rgb(81, 139, 179);
 	}
 </style>
