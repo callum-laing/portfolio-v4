@@ -11,7 +11,7 @@
 		</div>
 		<div class="card-info">
 			<h3>CDL Workout</h3>
-			<p>
+			<p class="card-description">
 				I built a workout app using Vue.js that allows users to create workout days, add exercises
 				to each day, and specify reps for each exercise. It leverages Vue's reactive state
 				management to handle dynamic data updates and uses localStorage to retain workout
@@ -34,7 +34,7 @@
 		</div>
 		<div class="card-info">
 			<h3>Todo List</h3>
-			<p>
+			<p class="card-description">
 				I built a to-do list app using Svelte.js that lets users add, edit, delete, and mark tasks
 				as complete. It uses Svelte’s state management for smooth updates and stores tasks in
 				localStorage so they stay saved even after closing the app.
@@ -127,5 +127,104 @@
 	.proj-links a:hover {
 		color: rgb(81, 139, 179);
 		border: 1px solid rgb(81, 139, 179);
+	}
+
+	@media (max-width: 767px) {
+		.proj-card {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			padding: 1em;
+		}
+
+		.card-img {
+			display: flex;
+			justify-content: center;
+		}
+
+		.card-img img {
+			width: 100%;
+			height: auto;
+			max-width: 400px;
+		}
+
+		.card-info {
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+
+		.card-description {
+			margin: 0 auto;
+		}
+
+		.proj-card-footer {
+			flex-direction: column;
+			gap: 10px;
+		}
+	}
+
+	@media (min-width: 375px) and (max-width: 413px) {
+		.proj-card {
+			padding: 0.8em;
+		}
+
+		.card-info h3 {
+			font-size: 1.3em;
+		}
+
+		.proj-links a {
+			font-size: 0.8em;
+			padding: 4px 8px;
+		}
+	}
+
+	@media (max-width: 1024px) {
+		.proj-card {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			padding: 1em;
+		}
+
+		.card-img {
+			display: flex;
+			justify-content: center;
+		}
+
+		.card-img img {
+			width: 100%;
+			height: auto;
+			max-width: 500px;
+		}
+
+		.card-info {
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+
+		.card-description {
+			display: none;
+		}
+
+		.proj-card-footer {
+			flex-direction: column;
+			gap: 10px;
+			align-items: center;
+		}
+
+		.proj-links {
+			display: flex;
+			gap: 10px;
+			justify-content: center;
+		}
+
+		.proj-links a {
+			font-size: 1em;
+			padding: 5px 10px;
+		}
 	}
 </style>
