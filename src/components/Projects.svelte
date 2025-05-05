@@ -1,10 +1,35 @@
 <script>
 	import cdlworkout from '../assets/cdlworkout.jpg';
 	import todoList from '../assets/todoList.jpg';
+	import pomodoro from '../assets/pomodoro-timer.jpg';
 </script>
 
 <div id="projects" class="project-section">
 	<h2>Projects</h2>
+	<div class="proj-card">
+		<div class="card-img">
+			<img src={pomodoro} alt="Pomodoro timer" />
+		</div>
+		<div class="card-info">
+			<h3>Pomodoro Timer</h3>
+			<p class="card-description">
+				I built a Pomodoro Timer app using Vue.js to help users manage work and break intervals.
+				Users can switch between Pomodoro sessions, short breaks, and long breaks, with real-time
+				timer updates and visual feedback for active sessions.
+			</p>
+			<div class="proj-card-footer">
+				<p>Built using the Vue.js Framework</p>
+				<div class="proj-links">
+					<a class="alink" href="https://callum-laing.github.io/pomodoro-clock/" target="_blank"
+						>Live Demo</a
+					>
+					<a class="alink" href="https://github.com/callum-laing/pomodoro-clock" target="_blank"
+						>Github Repo</a
+					>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="proj-card">
 		<div class="card-img">
 			<img src={cdlworkout} alt="CDL Workout Project" />
@@ -125,7 +150,7 @@
 	}
 
 	.proj-links a:hover {
-		color: rgb(81, 139, 179);
+		background-color: rgb(81, 139, 179);
 		border: 1px solid rgb(81, 139, 179);
 	}
 

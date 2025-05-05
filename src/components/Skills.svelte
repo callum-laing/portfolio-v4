@@ -35,16 +35,7 @@
 		<img src={react} alt="react icon" width="50" height="auto" loading="lazy" />
 		<span>React</span>
 	</div>
-	<!-- <div class="skillIcons">
-    <img
-      src={nextjs}
-      alt="nextjs icon"
-      width="50"
-      height="auto"
-      loading="lazy"
-    />
-    <span>Next</span>
-  </div> -->
+
 	<div class="skillIcons">
 		<img src={vite} alt="vite icon" width="50" height="auto" loading="lazy" />
 		<span>Vite</span>
