@@ -1,3 +1,8 @@
+<script>
+	import github from '../assets/svg/github.svg';
+	import Linked from '../assets/svg/linked.svg';
+</script>
+
 <section class="contact">
 	<h2>Contact</h2>
 	<div id="contactContainer">
@@ -7,10 +12,16 @@
 				touch if you'd like to discuss employment opportunities.
 			</p>
 			<h3>My Links</h3>
-			<ul>
-				<li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
-				<li><a href="https://github.com" target="_blank">GitHub</a></li>
-			</ul>
+			<div class="skill-item">
+				<img src={github} alt="GitHub Icon" />
+				<a href="https://github.com/callum-laing" target="_blank">GitHub</a>
+			</div>
+
+			<div class="skill-item">
+				<img src={Linked} alt="LinkedIn Icon" />
+
+				<a href="www.linkedin.com/in/callumlaing91" target="_blank">LinkedIn</a>
+			</div>
 		</div>
 		<div class="formSection">
 			<form action="https://formspree.io/f/xknykdjb" method="POST">
@@ -162,6 +173,28 @@
 
 	.linksSection ul li a:hover {
 		text-decoration: underline;
+	}
+
+	.skill-item {
+		display: flex;
+		align-items: center;
+		transition: 0.3s ease;
+		gap: 5px;
+		font-weight: 600;
+		line-height: 34px;
+	}
+
+	.skill-item img {
+		width: 34px;
+		height: 34px;
+	}
+
+	.skill-item a {
+		text-decoration: none;
+		color: rgba(220, 220, 220);
+
+		margin: 0;
+		line-height: 34px;
 	}
 
 	@media (max-width: 767px) {
