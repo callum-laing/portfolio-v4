@@ -20,8 +20,7 @@
 			<div class="proj-card-footer">
 				<p>Built using the Vue.js Framework</p>
 				<div class="proj-links">
-					<a class="alink" href="https://callum-laing.github.io/pomodoro-clock/" target="_blank"
-						>Live Demo</a
+					<a class="alink" href="https://pomodoro-timer-dlq.pages.dev/" target="_blank">Live Demo</a
 					>
 					<a class="alink" href="https://github.com/callum-laing/pomodoro-clock" target="_blank"
 						>Github Repo</a
