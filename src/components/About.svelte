@@ -11,6 +11,7 @@
 	import vite from '../assets/svg/vitesvg.svg';
 	import sql from '../assets/svg/sql.svg';
 	import cloudflare from '../assets/svg/cloudflare.svg';
+	import nuxt from '../assets/svg/nuxt.svg';
 </script>
 
 <section id="aboutSection" class="about">
@@ -37,12 +38,16 @@
 			<p>JavaScript</p>
 		</div>
 		<div class="skill-item">
-			<img src={react} alt="React Icon" />
-			<p>React</p>
+			<img src={vue} alt="Vue Icon" />
+			<p>Vue3</p>
 		</div>
 		<div class="skill-item">
-			<img src={vue} alt="Vue Icon" />
-			<p>Vue</p>
+			<img src={nuxt} alt="Nuxt Icon" />
+			<p>Nuxt</p>
+		</div>
+		<div class="skill-item">
+			<img src={react} alt="React Icon" />
+			<p>React</p>
 		</div>
 		<div class="skill-item">
 			<img src={svelte} alt="Svelte Icon" />
