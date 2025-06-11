@@ -12,6 +12,7 @@
 	import sql from '../assets/svg/sql.svg';
 	import cloudflare from '../assets/svg/cloudflare.svg';
 	import nuxt from '../assets/svg/nuxt.svg';
+	import supabase from '../assets/svg/supabase.svg';
 </script>
 
 <section id="aboutSection" class="about">
@@ -74,8 +75,12 @@
 			<p>VSCode</p>
 		</div>
 		<div class="skill-item">
-			<img src={cloudflare} alt="Vite Icon" />
+			<img src={cloudflare} alt="Cloudflare Icon" />
 			<p>Cloudflare</p>
+		</div>
+		<div class="skill-item">
+			<img src={supabase} alt="Supabase Icon" />
+			<p>Supabase</p>
 		</div>
 	</div>
 </section>

@@ -1,11 +1,35 @@
 <script>
 	import cdlworkout from '../assets/cdlworkout.jpg';
-	import todoList from '../assets/todoList.jpg';
+	import dailypush from '../assets/daily-push.jpg';
 	import pomodoro from '../assets/pomodoro-timer.jpg';
 </script>
 
 <div id="projects" class="project-section">
 	<h2>Projects</h2>
+	<div class="proj-card">
+		<div class="card-img">
+			<img src={dailypush} alt="Todo List" />
+		</div>
+		<div class="card-info">
+			<h3>daily-push</h3>
+			<p class="card-description">
+				I built a personal blog and productivity log using Nuxt 3 and Supabase. It serves as an
+				accountability tracker where I post summaries of my study sessions, noting highlights,
+				challenges, and progress. The app includes admin-only authentication, a custom post creation
+				form, and persistent storage powered by Supabase. The interface is responsive, minimal, and
+				designed for quick daily entries.
+			</p>
+			<div class="proj-card-footer">
+				<p>Built using Nuxt3, PicoCSS and Supabase</p>
+				<div class="proj-links">
+					<a class="alink" href="https://daily-push.pages.dev/" target="_blank">Live Demo</a>
+					<a class="alink" href="https://github.com/callum-laing/daily-push" target="_blank"
+						>Github Repo</a
+					>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="proj-card">
 		<div class="card-img">
 			<img src={pomodoro} alt="Pomodoro timer" />
@@ -46,30 +70,6 @@
 				<div class="proj-links">
 					<a class="alink" href="https://cdl-workout.pages.dev/" target="_blank">Live Demo</a>
 					<a class="alink" href="https://github.com/callum-laing/cdl-workout" target="_blank"
-						>Github Repo</a
-					>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="proj-card">
-		<div class="card-img">
-			<img src={todoList} alt="Todo List" />
-		</div>
-		<div class="card-info">
-			<h3>Todo List</h3>
-			<p class="card-description">
-				I built a to-do list app using Svelte.js that lets users add, edit, delete, and mark tasks
-				as complete. It uses Svelte’s state management for smooth updates and stores tasks in
-				localStorage so they stay saved even after closing the app.
-			</p>
-			<div class="proj-card-footer">
-				<p>Built using the Svelte.js Framework</p>
-				<div class="proj-links">
-					<a class="alink" href="https://svelte-todo-app-73m.pages.dev/" target="_blank"
-						>Live Demo</a
-					>
-					<a class="alink" href="https://github.com/callum-laing/svelte-todo-app" target="_blank"
 						>Github Repo</a
 					>
 				</div>
