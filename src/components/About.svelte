@@ -6,8 +6,6 @@
 	import svelte from '../assets/svg/sveltesvg.svg';
 	import vue from '../assets/svg/vuesvg.svg';
 	import git from '../assets/svg/gitsvg.svg';
-	import github from '../assets/svg/github.svg';
-	import vscode from '../assets/svg/vscodesvg.svg';
 	import vite from '../assets/svg/vitesvg.svg';
 	import sql from '../assets/svg/sql.svg';
 	import cloudflare from '../assets/svg/cloudflare.svg';
@@ -63,24 +61,16 @@
 			<p>Vite</p>
 		</div>
 		<div class="skill-item">
-			<img src={git} alt="Git Icon" />
-			<p>Git</p>
-		</div>
-		<div class="skill-item">
-			<img src={github} alt="GitHub Icon" />
-			<p>GitHub</p>
-		</div>
-		<div class="skill-item">
-			<img src={vscode} alt="VSCode Icon" />
-			<p>VSCode</p>
+			<img src={supabase} alt="Supabase Icon" />
+			<p>Supabase</p>
 		</div>
 		<div class="skill-item">
 			<img src={cloudflare} alt="Cloudflare Icon" />
 			<p>Cloudflare</p>
 		</div>
 		<div class="skill-item">
-			<img src={supabase} alt="Supabase Icon" />
-			<p>Supabase</p>
+			<img src={git} alt="Git Icon" />
+			<p>Git</p>
 		</div>
 	</div>
 </section>
@@ -88,7 +78,7 @@
 <style>
 	.about {
 		margin: 1em 0;
-		min-height: calc(100vh - 6rem);
+		min-height: calc(100vh - 20rem);
 	}
 
 	h2 {
@@ -104,11 +94,10 @@
 	}
 
 	p {
-		max-width: 900px;
+		max-width: 1200px;
 		line-height: 1.4;
 	}
 
-	/* About icons */
 	.skill-container {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -121,16 +110,44 @@
 		transition: 0.3s ease;
 		gap: 5px;
 		font-weight: 600;
-		line-height: 34px;
 	}
 
 	.skill-item img {
-		width: 34px;
-		height: 34px;
+		width: 32px;
+		height: 32px;
 	}
 
 	.skill-item p {
 		margin: 0;
-		line-height: 34px;
+		line-height: 25px;
+	}
+
+	/* Mobile */
+	@media (max-width: 600px) {
+		h2 {
+			font-size: 2rem;
+		}
+
+		h3 {
+			font-size: 1rem;
+		}
+
+		p {
+			font-size: 0.9rem;
+		}
+
+		.skill-container {
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 15px;
+		}
+
+		.skill-item img {
+			width: 24px;
+			height: 24px;
+		}
+
+		.skill-item p {
+			font-size: 0.8rem;
+		}
 	}
 </style>

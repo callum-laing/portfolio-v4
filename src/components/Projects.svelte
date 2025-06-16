@@ -85,6 +85,7 @@
 		gap: 3em;
 		margin: 1em 0;
 		min-height: calc(100vh - 6rem);
+		padding-bottom: 10rem;
 	}
 
 	h2 {
